@@ -1,0 +1,21 @@
+﻿<Window x:Class="BUSTicketing.UI.Login.SecurityDashBoardUI"
+          xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Security Module" Height="520" Width="894" WindowStartupLocation="CenterScreen" WindowState="Maximized">
+    <Grid>
+        <Menu Height="56" Name="securityMenu" VerticalAlignment="Top" >
+            <MenuItem Header="Role Access" Height="19.46" FontFamily="Verdana" FontWeight="DemiBold" Margin="10,6,0,0" Name="mnuRoleBasedAccessSetup" >
+                <MenuItem Header="Group Setup " Name="mnuGroupSetup" Click="mnuGroupSetup_Click" />
+                <MenuItem Header="User Setup " Name="mnuUserSetup" Click="mnuUserSetup_Click"/>
+                <MenuItem Header="Module Permission " Name="mnuModuleSetup" Click="mnuModuleSetup_Click"/>
+                <MenuItem Header="Menu Permission " Name="mnuMenuSetup" Click="mnuMenuSetup_Click"/>
+
+            </MenuItem>
+            <MenuItem Header="Log Viewer" Height="19.46" FontFamily="Verdana" FontWeight="DemiBold" Margin="10,6,0,0" Name="mnuLogviewerSetup" >
+                <MenuItem Header="View Error " Name="viewLog" Click="viewLog_Click" />
+
+
+            </MenuItem>
+        </Menu>
+    </Grid>
+</Window>

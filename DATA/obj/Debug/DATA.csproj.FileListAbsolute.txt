@@ -1,0 +1,29 @@
+E:\Application\WPF_NewProject\DATA\bin\Debug\DATA.dll
+E:\Application\WPF_NewProject\DATA\bin\Debug\DATA.pdb
+E:\Application\WPF_NewProject\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+E:\Application\WPF_NewProject\DATA\obj\Debug\DATA.dll
+E:\Application\WPF_NewProject\DATA\obj\Debug\DATA.pdb
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\bin\Debug\DATA.dll.config
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\bin\Debug\DATA.dll
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\bin\Debug\DATA.pdb
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\bin\Debug\EntityFramework.dll
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\bin\Debug\EntityFramework.xml
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\obj\Debug\DATA.dll
+E:\Application\WPF_NewProjec(3_layer_architecture)\DATA\obj\Debug\DATA.pdb
+E:\Application\BusTicketingApp\DATA\bin\Debug\DATA.dll.config
+E:\Application\BusTicketingApp\DATA\bin\Debug\DATA.dll
+E:\Application\BusTicketingApp\DATA\bin\Debug\DATA.pdb
+E:\Application\BusTicketingApp\DATA\bin\Debug\EntityFramework.dll
+E:\Application\BusTicketingApp\DATA\bin\Debug\EntityFramework.xml
+E:\Application\BusTicketingApp\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+E:\Application\BusTicketingApp\DATA\obj\Debug\DATA.dll
+E:\Application\BusTicketingApp\DATA\obj\Debug\DATA.pdb
+H:\APP\BusTicketingApp__September _19, _2015\DATA\bin\Debug\DATA.dll.config
+H:\APP\BusTicketingApp__September _19, _2015\DATA\bin\Debug\DATA.dll
+H:\APP\BusTicketingApp__September _19, _2015\DATA\bin\Debug\DATA.pdb
+H:\APP\BusTicketingApp__September _19, _2015\DATA\bin\Debug\EntityFramework.dll
+H:\APP\BusTicketingApp__September _19, _2015\DATA\bin\Debug\EntityFramework.xml
+H:\APP\BusTicketingApp__September _19, _2015\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+H:\APP\BusTicketingApp__September _19, _2015\DATA\obj\Debug\DATA.dll
+H:\APP\BusTicketingApp__September _19, _2015\DATA\obj\Debug\DATA.pdb

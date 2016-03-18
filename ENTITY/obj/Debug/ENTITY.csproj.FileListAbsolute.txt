@@ -1,0 +1,20 @@
+E:\Application\WPF_NewProject\ENTITY\bin\Debug\ENTITY.dll
+E:\Application\WPF_NewProject\ENTITY\bin\Debug\ENTITY.pdb
+E:\Application\WPF_NewProject\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+E:\Application\WPF_NewProject\ENTITY\obj\Debug\ENTITY.dll
+E:\Application\WPF_NewProject\ENTITY\obj\Debug\ENTITY.pdb
+E:\Application\BusTicketingApp\ENTITY\bin\Debug\ENTITY.dll
+E:\Application\BusTicketingApp\ENTITY\bin\Debug\ENTITY.pdb
+E:\Application\BusTicketingApp\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+E:\Application\BusTicketingApp\ENTITY\obj\Debug\ENTITY.dll
+E:\Application\BusTicketingApp\ENTITY\obj\Debug\ENTITY.pdb
+H:\APP\BusTicketingApp__September _19, _2015\ENTITY\bin\Debug\ENTITY.dll
+H:\APP\BusTicketingApp__September _19, _2015\ENTITY\bin\Debug\ENTITY.pdb
+H:\APP\BusTicketingApp__September _19, _2015\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+H:\APP\BusTicketingApp__September _19, _2015\ENTITY\obj\Debug\ENTITY.dll
+H:\APP\BusTicketingApp__September _19, _2015\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\kayes\Desktop\BUSTicketing\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\kayes\Desktop\BUSTicketing\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\kayes\Desktop\BUSTicketing\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+C:\Users\kayes\Desktop\BUSTicketing\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\kayes\Desktop\BUSTicketing\ENTITY\obj\Debug\ENTITY.pdb

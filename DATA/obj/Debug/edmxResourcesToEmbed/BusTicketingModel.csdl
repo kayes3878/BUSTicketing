@@ -1,0 +1,269 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="BUSTICKETINGModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="BUSTICKETINGEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="BUS_ASSIGN" EntityType="BUSTICKETINGModel.BUS_ASSIGN" />
+    <EntitySet Name="DUSERs" EntityType="BUSTICKETINGModel.DUSER" />
+    <EntitySet Name="MODULE_PERMISSION" EntityType="BUSTICKETINGModel.MODULE_PERMISSION" />
+    <EntitySet Name="PRE_SETUP" EntityType="BUSTICKETINGModel.PRE_SETUP" />
+    <EntitySet Name="ROLEWISE_MENU" EntityType="BUSTICKETINGModel.ROLEWISE_MENU" />
+    <EntitySet Name="SeatFareDetails" EntityType="BUSTICKETINGModel.SeatFareDetail" />
+    <EntitySet Name="TICKET_DETAILS" EntityType="BUSTICKETINGModel.TICKET_DETAILS" />
+    <EntitySet Name="USER_GROUP" EntityType="BUSTICKETINGModel.USER_GROUP" />
+    <AssociationSet Name="FK_TICKET_DETAILS_BUS_ASSIGN" Association="BUSTICKETINGModel.FK_TICKET_DETAILS_BUS_ASSIGN">
+      <End Role="BUS_ASSIGN" EntitySet="BUS_ASSIGN" />
+      <End Role="TICKET_DETAILS" EntitySet="TICKET_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_DUSER_USER_GROUP" Association="BUSTICKETINGModel.FK_DUSER_USER_GROUP">
+      <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+      <End Role="DUSER" EntitySet="DUSERs" />
+    </AssociationSet>
+    <AssociationSet Name="FK_TICKET_DETAILS_DUSER" Association="BUSTICKETINGModel.FK_TICKET_DETAILS_DUSER">
+      <End Role="DUSER" EntitySet="DUSERs" />
+      <End Role="TICKET_DETAILS" EntitySet="TICKET_DETAILS" />
+    </AssociationSet>
+    <AssociationSet Name="FK_MODULE_PERMISSION_USER_GROUP" Association="BUSTICKETINGModel.FK_MODULE_PERMISSION_USER_GROUP">
+      <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+      <End Role="MODULE_PERMISSION" EntitySet="MODULE_PERMISSION" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ROLEWISE_MENU_MODULE_PERMISSION" Association="BUSTICKETINGModel.FK_ROLEWISE_MENU_MODULE_PERMISSION">
+      <End Role="MODULE_PERMISSION" EntitySet="MODULE_PERMISSION" />
+      <End Role="ROLEWISE_MENU" EntitySet="ROLEWISE_MENU" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ROLEWISE_MENU_USER_GROUP" Association="BUSTICKETINGModel.FK_ROLEWISE_MENU_USER_GROUP">
+      <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+      <End Role="ROLEWISE_MENU" EntitySet="ROLEWISE_MENU" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="BUS_ASSIGN">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DateOfDiparture" Type="DateTime" Precision="0" />
+    <Property Name="UniqueId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TimeOfDiparture" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Sift" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="A1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="A2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="A3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="A4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="B1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="B2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="B3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="B4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="C1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="C2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="C3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="C4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="D1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="D2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="D3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="D4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="E1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="E2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="E3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="E4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="F1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="F2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="F3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="F4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="G1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="G2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="G3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="G4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="H1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="H2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="H3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="H4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="I1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="I2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="I3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="I4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="J1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="J2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="J3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="J4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="BusNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="TicketPrice" Type="Int32" />
+    <Property Name="TicketCounter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="LastStop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ReportingTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="TICKET_DETAILS" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_BUS_ASSIGN" FromRole="BUS_ASSIGN" ToRole="TICKET_DETAILS" />
+  </EntityType>
+  <EntityType Name="DUSER">
+    <Key>
+      <PropertyRef Name="USER_ID" />
+    </Key>
+    <Property Name="USER_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="USER_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USER_PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USER_GROUP_ID" Type="Int64" Nullable="false" />
+    <NavigationProperty Name="USER_GROUP" Relationship="BUSTICKETINGModel.FK_DUSER_USER_GROUP" FromRole="DUSER" ToRole="USER_GROUP" />
+    <NavigationProperty Name="TICKET_DETAILS" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_DUSER" FromRole="DUSER" ToRole="TICKET_DETAILS" />
+  </EntityType>
+  <EntityType Name="MODULE_PERMISSION">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MODULE_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="USER_GROUP_ID" Type="Int64" />
+    <NavigationProperty Name="USER_GROUP" Relationship="BUSTICKETINGModel.FK_MODULE_PERMISSION_USER_GROUP" FromRole="MODULE_PERMISSION" ToRole="USER_GROUP" />
+    <NavigationProperty Name="ROLEWISE_MENU" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_MODULE_PERMISSION" FromRole="MODULE_PERMISSION" ToRole="ROLEWISE_MENU" />
+  </EntityType>
+  <EntityType Name="PRE_SETUP">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BusType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sift" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BusNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="TicketCounterName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+  </EntityType>
+  <EntityType Name="ROLEWISE_MENU">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="MODULE_ID" Type="Int32" />
+    <Property Name="USER_GROUP_ID" Type="Int64" Nullable="false" />
+    <Property Name="PARENT_MENU_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="PARENT_MENU_CONTENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <Property Name="CHILD_MENU_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="CHILD_MENU_CONTENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="MODULE_PERMISSION" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_MODULE_PERMISSION" FromRole="ROLEWISE_MENU" ToRole="MODULE_PERMISSION" />
+    <NavigationProperty Name="USER_GROUP" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_USER_GROUP" FromRole="ROLEWISE_MENU" ToRole="USER_GROUP" />
+  </EntityType>
+  <EntityType Name="SeatFareDetail">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="JournyFromLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="JournyToLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SeatFare" Type="Int32" />
+  </EntityType>
+  <EntityType Name="TICKET_DETAILS">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BusAssingnPKId" Type="Int32" />
+    <Property Name="BusUniqueCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="ClintId" Type="Int32" />
+    <Property Name="ClintName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClintAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="ClintMobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BusNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BusType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Sift" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="SeatNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="EntryDate" Type="DateTime" Precision="0" />
+    <Property Name="TicketPrice" Type="Int32" />
+    <Property Name="TicketPricePaid" Type="Int32" />
+    <Property Name="TicketPriceDiscount" Type="Int32" />
+    <Property Name="TicketPriceDue" Type="Int32" />
+    <Property Name="TicketNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="BookingNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="JournyDate" Type="DateTime" Precision="0" />
+    <Property Name="JournyFrom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="JournyTo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="UserID" Type="Int32" />
+    <Property Name="Age" Type="Int32" />
+    <NavigationProperty Name="BUS_ASSIGN" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_BUS_ASSIGN" FromRole="TICKET_DETAILS" ToRole="BUS_ASSIGN" />
+    <NavigationProperty Name="DUSER" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_DUSER" FromRole="TICKET_DETAILS" ToRole="DUSER" />
+  </EntityType>
+  <EntityType Name="USER_GROUP">
+    <Key>
+      <PropertyRef Name="GROUP_ID" />
+    </Key>
+    <Property Name="GROUP_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="GROUP_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="DUSERs" Relationship="BUSTICKETINGModel.FK_DUSER_USER_GROUP" FromRole="USER_GROUP" ToRole="DUSER" />
+    <NavigationProperty Name="MODULE_PERMISSION" Relationship="BUSTICKETINGModel.FK_MODULE_PERMISSION_USER_GROUP" FromRole="USER_GROUP" ToRole="MODULE_PERMISSION" />
+    <NavigationProperty Name="ROLEWISE_MENU" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_USER_GROUP" FromRole="USER_GROUP" ToRole="ROLEWISE_MENU" />
+  </EntityType>
+  <Association Name="FK_TICKET_DETAILS_BUS_ASSIGN">
+    <End Type="BUSTICKETINGModel.BUS_ASSIGN" Role="BUS_ASSIGN" Multiplicity="0..1" />
+    <End Type="BUSTICKETINGModel.TICKET_DETAILS" Role="TICKET_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="BUS_ASSIGN">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="TICKET_DETAILS">
+        <PropertyRef Name="BusAssingnPKId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_DUSER_USER_GROUP">
+    <End Type="BUSTICKETINGModel.USER_GROUP" Role="USER_GROUP" Multiplicity="1" />
+    <End Type="BUSTICKETINGModel.DUSER" Role="DUSER" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER_GROUP">
+        <PropertyRef Name="GROUP_ID" />
+      </Principal>
+      <Dependent Role="DUSER">
+        <PropertyRef Name="USER_GROUP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_TICKET_DETAILS_DUSER">
+    <End Type="BUSTICKETINGModel.DUSER" Role="DUSER" Multiplicity="0..1" />
+    <End Type="BUSTICKETINGModel.TICKET_DETAILS" Role="TICKET_DETAILS" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="DUSER">
+        <PropertyRef Name="USER_ID" />
+      </Principal>
+      <Dependent Role="TICKET_DETAILS">
+        <PropertyRef Name="UserID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_MODULE_PERMISSION_USER_GROUP">
+    <End Type="BUSTICKETINGModel.USER_GROUP" Role="USER_GROUP" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="BUSTICKETINGModel.MODULE_PERMISSION" Role="MODULE_PERMISSION" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER_GROUP">
+        <PropertyRef Name="GROUP_ID" />
+      </Principal>
+      <Dependent Role="MODULE_PERMISSION">
+        <PropertyRef Name="USER_GROUP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ROLEWISE_MENU_MODULE_PERMISSION">
+    <End Type="BUSTICKETINGModel.MODULE_PERMISSION" Role="MODULE_PERMISSION" Multiplicity="0..1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Type="BUSTICKETINGModel.ROLEWISE_MENU" Role="ROLEWISE_MENU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="MODULE_PERMISSION">
+        <PropertyRef Name="ID" />
+      </Principal>
+      <Dependent Role="ROLEWISE_MENU">
+        <PropertyRef Name="MODULE_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ROLEWISE_MENU_USER_GROUP">
+    <End Type="BUSTICKETINGModel.USER_GROUP" Role="USER_GROUP" Multiplicity="1" />
+    <End Type="BUSTICKETINGModel.ROLEWISE_MENU" Role="ROLEWISE_MENU" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="USER_GROUP">
+        <PropertyRef Name="GROUP_ID" />
+      </Principal>
+      <Dependent Role="ROLEWISE_MENU">
+        <PropertyRef Name="USER_GROUP_ID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>

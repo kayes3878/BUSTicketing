@@ -1,0 +1,209 @@
+﻿<Window x:Class="BUSTicketing.UI.TicketingUI"
+       xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="BUS TICKETING" Height="685.389" Width="1345.895" WindowState="Maximized" WindowStartupLocation="CenterScreen">
+    <Grid Margin="0,-3,0,3">
+        <Menu Height="26" Name="topManu" VerticalAlignment="Top" >
+            <MenuItem Header="Home" Margin="10,6,0,0" Name="HomeMenu" >
+                <MenuItem Header="Bus Assign" Name="BusAssignMenu" Click="BusAssignMenu_Click"/>
+            </MenuItem>
+        </Menu>
+        <GroupBox BorderThickness="3" BorderBrush="Black" Header="BUS Seat Planning" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" Height="618" Width="439">
+            <Grid Margin="0,0,-2,15">
+                <Label Content="Date"   Name="Date" HorizontalAlignment="Left" Margin="68,10,0,0" VerticalAlignment="Top" Height="26" Width="71"/>
+                <Label Content="Time"   x:Name="Time" HorizontalAlignment="Left" Margin="68,25,0,0" VerticalAlignment="Top" Height="31" Width="71"/>
+                <Label Content="Sift"   x:Name="Sift" HorizontalAlignment="Left" Margin="68,38,0,0" VerticalAlignment="Top" Height="26" Width="76"/>
+                <Label Content="Bus Type"   x:Name="BusType" HorizontalAlignment="Left" Margin="144,10,0,0" VerticalAlignment="Top" Height="27" Width="138"/>
+                <Label Content="Bus Number"   x:Name="BusNo" HorizontalAlignment="Left" Margin="144,26,0,0" VerticalAlignment="Top" Height="25" Width="138"/>
+
+                <Label Content="" Visibility="Hidden"  x:Name="BusAssingnPKIdLable" HorizontalAlignment="Left" Margin="8,16,0,0" VerticalAlignment="Top" Height="26" Width="60"/>
+                <!--<Label Content="" Visibility="Hidden"  x:Name="BusUniqueCodeLable" HorizontalAlignment="Left" Margin="8,42,0,0" VerticalAlignment="Top" Height="25" Width="58"/>-->
+                <Button Click="A1_Click" Name="A1" Content="A1" HorizontalAlignment="Left" Margin="68,86,0,0" VerticalAlignment="Top" Width="63" Height="46" />
+                <Button Click="A2_Click" Name="A2" Content="A2" HorizontalAlignment="Left" Margin="134,86,0,0" VerticalAlignment="Top" Width="63" Height="46" />
+                <Button Click="A3_Click" Name="A3" Content="A3" HorizontalAlignment="Left" Margin="231,86,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="A4_Click" Name="A4" Content="A4" HorizontalAlignment="Left" Margin="297,86,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+                <Button Click="B1_Click" Name="B1" Content="B1" HorizontalAlignment="Left" Margin="68,136,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="B2_Click" Name="B2" Content="B2" HorizontalAlignment="Left" Margin="134,136,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="B3_Click" Name="B3" Content="B3" HorizontalAlignment="Left" Margin="231,136,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="B4_Click" Name="B4" Content="B4" HorizontalAlignment="Left" Margin="297,136,0,0" VerticalAlignment="Top" Width="61" Height="47"/>
+                <Button Click="C1_Click" Name="C1" Content="C1" HorizontalAlignment="Left" Margin="68,186,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="C2_Click" Name="C2" Content="C2" HorizontalAlignment="Left" Margin="134,186,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="C3_Click" Name="C3" Content="C3" HorizontalAlignment="Left" Margin="231,186,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="C4_Click" Name="C4" Content="C4" HorizontalAlignment="Left" Margin="297,186,0,0" VerticalAlignment="Top" Width="61" Height="47"/>
+                <Button Click="D1_Click" Name="D1" Content="D1" HorizontalAlignment="Left" Margin="68,236,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="D2_Click" Name="D2" Content="D2" HorizontalAlignment="Left" Margin="134,236,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="D3_Click"  Name="D3" Content="D3" HorizontalAlignment="Left" Margin="231,236,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="D4_Click" Name="D4" Content="D4" HorizontalAlignment="Left" Margin="297,236,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+                <Button Click="E1_Click" Name="E1" Content="E1" HorizontalAlignment="Left" Margin="68,285,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="E2_Click" Name="E2" Content="E2" HorizontalAlignment="Left" Margin="134,285,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="E3_Click" Name="E3" Content="E3" HorizontalAlignment="Left" Margin="231,285,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="E4_Click" Name="E4" Content="E4" HorizontalAlignment="Left" Margin="297,285,0,0" VerticalAlignment="Top" Width="61" Height="47"/>
+                <Button Click="F1_Click" Name="F1" Content="F1" HorizontalAlignment="Left" Margin="68,335,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="F2_Click" Name="F2" Content="F2" HorizontalAlignment="Left" Margin="134,335,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="F3_Click" Name="F3" Content="F3" HorizontalAlignment="Left" Margin="231,335,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="F4_Click" Name="F4" Content="F4" HorizontalAlignment="Left" Margin="297,335,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+                <Button Click="G1_Click" Name="G1" Content="G1" HorizontalAlignment="Left" Margin="68,384,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="G2_Click" Name="G2" Content="G2" HorizontalAlignment="Left" Margin="134,384,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="G3_Click" Name="G3" Content="G3" HorizontalAlignment="Left" Margin="231,384,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="G4_Click" Name="G4" Content="G4" HorizontalAlignment="Left" Margin="297,384,0,0" VerticalAlignment="Top" Width="61" Height="47"/>
+                <Button Click="H1_Click" Name="H1" Content="H1" HorizontalAlignment="Left" Margin="68,434,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="H2_Click" Name="H2" Content="H2" HorizontalAlignment="Left" Margin="134,434,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="H3_Click" Name="H3" Content="H3" HorizontalAlignment="Left" Margin="231,434,0,0" VerticalAlignment="Top" Width="63" Height="47"/>
+                <Button Click="H4_Click" Name="H4" Content="H4" HorizontalAlignment="Left" Margin="297,434,0,0" VerticalAlignment="Top" Width="61" Height="47"/>
+                <Button Click="I1_Click" Name="I1" Content="I1" HorizontalAlignment="Left" Margin="68,485,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="I2_Click" Name="I2" Content="I2" HorizontalAlignment="Left" Margin="134,485,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="I3_Click" Name="I3" Content="I3" HorizontalAlignment="Left" Margin="231,485,0,0" VerticalAlignment="Top" Width="63" Height="46"/>
+                <Button Click="I4_Click" Name="I4" Content="I4" HorizontalAlignment="Left" Margin="297,485,0,0" VerticalAlignment="Top" Width="61" Height="46"/>
+                <Button Click="J1_Click" Name="J1" Content="J1" HorizontalAlignment="Left" Margin="68,534,0,0" VerticalAlignment="Top" Width="63" Height="45"/>
+                <Button Click="J2_Click" Name="J2" Content="J2" HorizontalAlignment="Left" Margin="134,534,0,0" VerticalAlignment="Top" Width="63" Height="45"/>
+                <Button Click="J3_Click" Name="J3" Content="J3" HorizontalAlignment="Left" Margin="231,534,0,0" VerticalAlignment="Top" Width="63" Height="45"/>
+                <Button Click="J4_Click" Name="J4" Content="J4" HorizontalAlignment="Left" Margin="297,534,0,0" VerticalAlignment="Top" Width="61" Height="45"/>
+                <Button Content="Driver" HorizontalAlignment="Left" Margin="287,16,0,0" VerticalAlignment="Top" Width="74" Height="54"/>
+            </Grid>
+        </GroupBox>
+
+        <GroupBox BorderThickness="3" BorderBrush="Black" Header="Search" HorizontalAlignment="Left" Margin="454,25,0,0" VerticalAlignment="Top" Height="205" Width="513">
+            <Grid>
+                <Calendar Name="clnd" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" SelectedDatesChanged="clnd_SelectedDatesChanged"/>
+                <Label Content="" FontSize="18" FontWeight="Bold" Name="dateLable" HorizontalAlignment="Left" Margin="194,7,0,0" VerticalAlignment="Top" Height="36" Width="297"/>
+
+
+                <ListView Name="allStatusBydateListView" MouseDoubleClick="allStatusBydateListView_MouseDoubleClick" HorizontalAlignment="Left" Height="130" Margin="194,45,0,0" VerticalAlignment="Top" Width="297">
+
+                    <!--<ListView.ContextMenu>
+                        <ContextMenu Name="proramList" StaysOpen="true" Background="WhiteSmoke">
+                            <ContextMenu.BitmapEffect>
+                                <BitmapEffectGroup/>
+                            </ContextMenu.BitmapEffect>
+                            <MenuItem Header="Edit" Name="EditProgramContextMenu"  Click="EditProgramContextMenu_Click_1"/>
+                        </ContextMenu>
+                    </ListView.ContextMenu>-->
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=ID}" Header="" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=TimeOfDiparture}" Header="Time" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Sift}" Header="Sift" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Type}" Header="AC/Non-AC" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=BusNumber}" Header="Bus No" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+
+            </Grid>
+
+        </GroupBox>
+        <GroupBox BorderThickness="3" BorderBrush="Black" Header="Sale / Booking / Return"  HorizontalAlignment="Left" Margin="454,230,0,0" VerticalAlignment="Top" Height="331" Width="518">
+            <Grid Margin="0,9,0,1">
+                <Label Content="Ticket No :" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="73" Margin="10,0,0,0"/>
+                <Label Content=""  Name="ticketBookingNumberlable" HorizontalAlignment="Left" VerticalAlignment="Top"  Width="auto" Margin="86,0,0,0"/>
+
+                <GroupBox Header="Passenger Info" Margin="10,26,243,129">
+                    <Grid Margin="0,0,0,-3">
+
+                        <TextBox Name="clintNameTextBox" HorizontalAlignment="Left" Height="23" Margin="67,3,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167"/>
+                        <Label Content="Name" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" Margin="0,-1,0,0"/>
+                        <Label Content="Mobile" HorizontalAlignment="Left" VerticalAlignment="Top" Width="62" Margin="0,24,0,0"/>
+                        <TextBox Name="clintMobileTextBox" HorizontalAlignment="Left" Height="23" Margin="67,27,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167"/>
+                        <CheckBox Content="Male" Name="genderMaleChq" HorizontalAlignment="Left" Margin="185,81,0,0" VerticalAlignment="Top" Checked="genderMaleChq_Checked"/>
+                        <CheckBox Content="Female" Name="genderFimaleChq" HorizontalAlignment="Left" Margin="117,81,0,0" VerticalAlignment="Top" Width="63" Checked="genderFimaleChq_Checked"/>
+                        <TextBox Name="clintAddressTextBox" HorizontalAlignment="Left" Height="23" Margin="67,51,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="167"/>
+                        <Label Content="Address" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,48,0,0" Width="62"/>
+                        <TextBox x:Name="ageTextBox" HorizontalAlignment="Left" Height="23" Margin="67,77,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="45"/>
+                        <Label Content="Age" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,74,0,0" Width="62"/>
+
+
+                    </Grid>
+
+                </GroupBox>
+                <ListView x:Name="ticketPurchageDetailsListView" HorizontalAlignment="Left" Height="108" Margin="268,52,0,0" VerticalAlignment="Top" Width="223" >
+
+                    <ListView.ContextMenu>
+                        <ContextMenu Name="ticketPurchageDetailsList" StaysOpen="true" Background="WhiteSmoke">
+                            <ContextMenu.BitmapEffect>
+                                <BitmapEffectGroup/>
+                            </ContextMenu.BitmapEffect>
+                            <MenuItem Header="Seat Delete" Name="removeSeat"  Click="removeSeat_Click"/>
+                        </ContextMenu>
+                    </ListView.ContextMenu>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding BusAssingnPKId }" Header="Bus AssingnId" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Id }" Header="Id" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding BusUniqueCode}" Header="Code" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Time}" Header="Time" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding BusNo}" Header="BusNo" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding BusType}" Header="AC/Non-AC" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Sift}" Header="Sift" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding SeatNo,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Header="Seat No" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding JournyDate}" Header="Journy Date" Width="0"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding EntryDate }" Header="Entry Date" Width="0"/>
+
+
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+                <CheckBox Name="SaleChqBox" Content="Sale" HorizontalAlignment="Left" Margin="449,26,0,0" VerticalAlignment="Top" Checked="SaleChqBox_Checked" Unchecked="SaleChqBox_Unchecked" />
+                <CheckBox Name="bookingChqBox" Content="Booking" HorizontalAlignment="Left" Margin="373,26,0,0" VerticalAlignment="Top" Checked="bookingChqBox_Checked" Unchecked="bookingChqBox_Unchecked"/>
+                <CheckBox Name="ReturnChqBox" Content="Retrn" HorizontalAlignment="Left" Margin="297,26,0,0" VerticalAlignment="Top" Checked="ReturnChqBox_Checked" Unchecked="ReturnChqBox_Unchecked"/>
+                <GroupBox Header="Journy Info" Margin="10,166,243,0" Height="107" VerticalAlignment="Top">
+                    <Grid>
+                        <TextBox Name="fromJournyTextbox" HorizontalAlignment="Left" Height="23" Margin="96,0,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138"/>
+                        <ComboBox Name="toJournyCombobox" Margin="96,25,7,0" VerticalAlignment="Top"/>
+
+                        <Label Content="From" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,-3,0,0" Width="62"/>
+                        <Label Content="Going To" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,21,0,0" Width="62"/>
+                        <TextBox Name="seatFareTextnox" HorizontalAlignment="Left" Height="23" Margin="96,50,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="138" PreviewTextInput="seatFareTextnox_PreviewTextInput" TextChanged="seatFareTextnox_TextChanged"/>
+                        <Label Content="Seat Fare(TK)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="0,47,0,0" Width="96"/>
+
+                    </Grid>
+
+                </GroupBox>
+                <TextBox IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="419,165,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72" Name="totalAmountTextBox"/>
+                <Label Content="Total Amount(TK)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="315,162,0,0" Width="104"/>
+                <TextBox HorizontalAlignment="Left" Height="23" Margin="419,189,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72" Name="paidAmountTextBox" TextChanged="paidAmountTextBox_TextChanged" PreviewTextInput="paidAmountTextBox_PreviewTextInput"/>
+                <Label Content="Paid Amount(TK)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="315,186,0,0" Width="104"/>
+                <TextBox IsEnabled="False" HorizontalAlignment="Left" Height="23" Margin="419,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72" Name="dueAmountTextBox"/>
+                <Label Content="Due Amount(TK)" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="315,209,0,0" Width="104"/>
+                <TextBox Name="discountTextBox" HorizontalAlignment="Left" Height="23" Margin="419,238,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="72"/>
+                <CheckBox Content="Discount (TK)" HorizontalAlignment="Left" Margin="315,240,0,0" VerticalAlignment="Top"/>
+                <Button Content="Ok" IsEnabled="False" Name="saveButton" Click="saveButton_Click" HorizontalAlignment="Left" Margin="416,268,0,-2" VerticalAlignment="Top" Width="75" />
+
+            </Grid>
+
+        </GroupBox>
+
+        <Popup Margin="0,0,0,0" Name="popCaesar"  StaysOpen="False" AllowsTransparency="True" >
+            <TextBlock Name="helpBlock" Text="Only 0-9"  Padding="5" Background="SkyBlue" Width="60" TextWrapping="Wrap"/>
+        </Popup>
+
+        <Popup Margin="0,0,0,0" Name="ticketInfoPopup"  StaysOpen="False" AllowsTransparency="True" >
+            <TextBlock Name="ticketInfoPopupBlock" Text=""  Padding="5" Background="SkyBlue" Width="auto" TextWrapping="Wrap"/>
+        </Popup>
+        <GroupBox BorderThickness="3" BorderBrush="Black" Header="" HorizontalAlignment="Left" Margin="977,25,0,0" Width="351" Height="618" VerticalAlignment="Top">
+            <Grid Margin="0,0,-2,0" Height="590" VerticalAlignment="Top">
+                <Label Content="Search" Margin="16,15,263,545" />
+                <ComboBox Name="bookingAndSoldStatusCombobox" Margin="83,13,38,0" VerticalAlignment="Top" Height="30"/>
+
+                <ListView Name="SoldAndBookingListView"  HorizontalAlignment="Left" Height="516" Margin="10,64,0,0" VerticalAlignment="Top" Width="321">
+                    <ListView.ContextMenu>
+                        <ContextMenu Name="ticketListViewContext" StaysOpen="true" Background="WhiteSmoke">
+                            <ContextMenu.BitmapEffect>
+                                <BitmapEffectGroup/>
+                            </ContextMenu.BitmapEffect>
+                            <MenuItem Header="Booking To Purchage" Name="BookingToPurchageContextMenu"  Click="BookingToPurchageContextMenu_Click"/>
+                        </ContextMenu>
+                    </ListView.ContextMenu>
+                    <ListView.View>
+                        <GridView>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=TicketNo}" Header="Ticket No" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=ClintName}" Header="Passanger Name" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=Status}" Header="Status" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=TicketPricePaid}" Header="Ticket Price Paid" Width="Auto"/>
+                            <GridViewColumn DisplayMemberBinding="{Binding Path=TicketPriceDue}" Header="Ticket Price Due" Width="Auto"/>
+                        </GridView>
+                    </ListView.View>
+                </ListView>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Window>

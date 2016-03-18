@@ -1,0 +1,48 @@
+E:\Application\WPF_NewProject\DAL\bin\Debug\DAL.dll
+E:\Application\WPF_NewProject\DAL\bin\Debug\DAL.pdb
+E:\Application\WPF_NewProject\DAL\bin\Debug\DATA.dll
+E:\Application\WPF_NewProject\DAL\bin\Debug\ENTITY.dll
+E:\Application\WPF_NewProject\DAL\bin\Debug\DATA.pdb
+E:\Application\WPF_NewProject\DAL\bin\Debug\ENTITY.pdb
+E:\Application\WPF_NewProject\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Application\WPF_NewProject\DAL\obj\Debug\DAL.dll
+E:\Application\WPF_NewProject\DAL\obj\Debug\DAL.pdb
+E:\Application\BusTicketingApp\DAL\bin\Debug\DAL.dll
+E:\Application\BusTicketingApp\DAL\bin\Debug\DAL.pdb
+E:\Application\BusTicketingApp\DAL\bin\Debug\DATA.dll
+E:\Application\BusTicketingApp\DAL\bin\Debug\ENTITY.dll
+E:\Application\BusTicketingApp\DAL\bin\Debug\EntityFramework.dll
+E:\Application\BusTicketingApp\DAL\bin\Debug\DATA.pdb
+E:\Application\BusTicketingApp\DAL\bin\Debug\ENTITY.pdb
+E:\Application\BusTicketingApp\DAL\bin\Debug\EntityFramework.xml
+E:\Application\BusTicketingApp\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+E:\Application\BusTicketingApp\DAL\obj\Debug\DAL.Properties.Resources.resources
+E:\Application\BusTicketingApp\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+E:\Application\BusTicketingApp\DAL\obj\Debug\DAL.dll
+E:\Application\BusTicketingApp\DAL\obj\Debug\DAL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\DAL.dll
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\DAL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\DATA.dll
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\ENTITY.dll
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\EntityFramework.dll
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\DATA.pdb
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\ENTITY.pdb
+H:\APP\BusTicketingApp__September _19, _2015\DAL\bin\Debug\EntityFramework.xml
+H:\APP\BusTicketingApp__September _19, _2015\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+H:\APP\BusTicketingApp__September _19, _2015\DAL\obj\Debug\DAL.Properties.Resources.resources
+H:\APP\BusTicketingApp__September _19, _2015\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+H:\APP\BusTicketingApp__September _19, _2015\DAL\obj\Debug\DAL.dll
+H:\APP\BusTicketingApp__September _19, _2015\DAL\obj\Debug\DAL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\DAL.dll
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\DAL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\DATA.dll
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\ENTITY.dll
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\EntityFramework.dll
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\DATA.pdb
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\ENTITY.pdb
+C:\Users\kayes\Desktop\BUSTicketing\DAL\bin\Debug\EntityFramework.xml
+C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.Properties.Resources.resources
+C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.dll
+C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.pdb

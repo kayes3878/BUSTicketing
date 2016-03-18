@@ -1,0 +1,54 @@
+E:\Application\WPF_NewProject\BLL\bin\Debug\BLL.dll
+E:\Application\WPF_NewProject\BLL\bin\Debug\BLL.pdb
+E:\Application\WPF_NewProject\BLL\bin\Debug\DAL.dll
+E:\Application\WPF_NewProject\BLL\bin\Debug\ENTITY.dll
+E:\Application\WPF_NewProject\BLL\bin\Debug\DAL.pdb
+E:\Application\WPF_NewProject\BLL\bin\Debug\ENTITY.pdb
+E:\Application\WPF_NewProject\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Application\WPF_NewProject\BLL\obj\Debug\BLL.dll
+E:\Application\WPF_NewProject\BLL\obj\Debug\BLL.pdb
+E:\Application\BusTicketingApp\BLL\bin\Debug\BLL.dll
+E:\Application\BusTicketingApp\BLL\bin\Debug\BLL.pdb
+E:\Application\BusTicketingApp\BLL\bin\Debug\DAL.dll
+E:\Application\BusTicketingApp\BLL\bin\Debug\ENTITY.dll
+E:\Application\BusTicketingApp\BLL\bin\Debug\DATA.dll
+E:\Application\BusTicketingApp\BLL\bin\Debug\EntityFramework.dll
+E:\Application\BusTicketingApp\BLL\bin\Debug\DAL.pdb
+E:\Application\BusTicketingApp\BLL\bin\Debug\ENTITY.pdb
+E:\Application\BusTicketingApp\BLL\bin\Debug\DATA.pdb
+E:\Application\BusTicketingApp\BLL\bin\Debug\EntityFramework.xml
+E:\Application\BusTicketingApp\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+E:\Application\BusTicketingApp\BLL\obj\Debug\BLL.Properties.Resources.resources
+E:\Application\BusTicketingApp\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
+E:\Application\BusTicketingApp\BLL\obj\Debug\BLL.dll
+E:\Application\BusTicketingApp\BLL\obj\Debug\BLL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\BLL.dll
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\BLL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\DAL.dll
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\ENTITY.dll
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\DATA.dll
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\EntityFramework.dll
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\DAL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\ENTITY.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\DATA.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BLL\bin\Debug\EntityFramework.xml
+H:\APP\BusTicketingApp__September _19, _2015\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+H:\APP\BusTicketingApp__September _19, _2015\BLL\obj\Debug\BLL.Properties.Resources.resources
+H:\APP\BusTicketingApp__September _19, _2015\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
+H:\APP\BusTicketingApp__September _19, _2015\BLL\obj\Debug\BLL.dll
+H:\APP\BusTicketingApp__September _19, _2015\BLL\obj\Debug\BLL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\BLL.dll
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\BLL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\DAL.dll
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\ENTITY.dll
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\DATA.dll
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\EntityFramework.dll
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\DAL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\ENTITY.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\DATA.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BLL\bin\Debug\EntityFramework.xml
+C:\Users\kayes\Desktop\BUSTicketing\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\kayes\Desktop\BUSTicketing\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\kayes\Desktop\BUSTicketing\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
+C:\Users\kayes\Desktop\BUSTicketing\BLL\obj\Debug\BLL.dll
+C:\Users\kayes\Desktop\BUSTicketing\BLL\obj\Debug\BLL.pdb

@@ -1,0 +1,713 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="BUSTICKETINGModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2008" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="BUS_ASSIGN">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="DateOfDiparture" Type="date" />
+          <Property Name="UniqueId" Type="varchar" MaxLength="50" />
+          <Property Name="TimeOfDiparture" Type="varchar" MaxLength="50" />
+          <Property Name="Sift" Type="varchar" MaxLength="50" />
+          <Property Name="A1" Type="varchar" MaxLength="50" />
+          <Property Name="A2" Type="varchar" MaxLength="50" />
+          <Property Name="A3" Type="varchar" MaxLength="50" />
+          <Property Name="A4" Type="varchar" MaxLength="50" />
+          <Property Name="B1" Type="varchar" MaxLength="50" />
+          <Property Name="B2" Type="varchar" MaxLength="50" />
+          <Property Name="B3" Type="varchar" MaxLength="50" />
+          <Property Name="B4" Type="varchar" MaxLength="50" />
+          <Property Name="C1" Type="varchar" MaxLength="50" />
+          <Property Name="C2" Type="varchar" MaxLength="50" />
+          <Property Name="C3" Type="varchar" MaxLength="50" />
+          <Property Name="C4" Type="varchar" MaxLength="50" />
+          <Property Name="D1" Type="varchar" MaxLength="50" />
+          <Property Name="D2" Type="varchar" MaxLength="50" />
+          <Property Name="D3" Type="varchar" MaxLength="50" />
+          <Property Name="D4" Type="varchar" MaxLength="50" />
+          <Property Name="E1" Type="varchar" MaxLength="50" />
+          <Property Name="E2" Type="varchar" MaxLength="50" />
+          <Property Name="E3" Type="varchar" MaxLength="50" />
+          <Property Name="E4" Type="varchar" MaxLength="50" />
+          <Property Name="F1" Type="varchar" MaxLength="50" />
+          <Property Name="F2" Type="varchar" MaxLength="50" />
+          <Property Name="F3" Type="varchar" MaxLength="50" />
+          <Property Name="F4" Type="varchar" MaxLength="50" />
+          <Property Name="G1" Type="varchar" MaxLength="50" />
+          <Property Name="G2" Type="varchar" MaxLength="50" />
+          <Property Name="G3" Type="varchar" MaxLength="50" />
+          <Property Name="G4" Type="varchar" MaxLength="50" />
+          <Property Name="H1" Type="varchar" MaxLength="50" />
+          <Property Name="H2" Type="varchar" MaxLength="50" />
+          <Property Name="H3" Type="varchar" MaxLength="50" />
+          <Property Name="H4" Type="varchar" MaxLength="50" />
+          <Property Name="I1" Type="varchar" MaxLength="50" />
+          <Property Name="I2" Type="varchar" MaxLength="50" />
+          <Property Name="I3" Type="varchar" MaxLength="50" />
+          <Property Name="I4" Type="varchar" MaxLength="50" />
+          <Property Name="J1" Type="varchar" MaxLength="50" />
+          <Property Name="J2" Type="varchar" MaxLength="50" />
+          <Property Name="J3" Type="varchar" MaxLength="50" />
+          <Property Name="J4" Type="varchar" MaxLength="50" />
+          <Property Name="BusNumber" Type="varchar" MaxLength="50" />
+          <Property Name="Type" Type="varchar" MaxLength="50" />
+          <Property Name="TicketPrice" Type="int" />
+          <Property Name="TicketCounter" Type="nvarchar" MaxLength="50" />
+          <Property Name="LastStop" Type="nvarchar" MaxLength="50" />
+          <Property Name="ReportingTime" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="DUSER">
+          <Key>
+            <PropertyRef Name="USER_ID" />
+          </Key>
+          <Property Name="USER_ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="USER_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="USER_PASSWORD" Type="varchar" MaxLength="50" />
+          <Property Name="USER_GROUP_ID" Type="bigint" Nullable="false" />
+        </EntityType>
+        <EntityType Name="MODULE_PERMISSION">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MODULE_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="USER_GROUP_ID" Type="bigint" />
+        </EntityType>
+        <EntityType Name="PRE_SETUP">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Time" Type="nvarchar" MaxLength="50" />
+          <Property Name="BusType" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sift" Type="nvarchar" MaxLength="50" />
+          <Property Name="BusNumber" Type="nvarchar" MaxLength="50" />
+          <Property Name="TicketCounterName" Type="nvarchar" MaxLength="50" />
+        </EntityType>
+        <EntityType Name="ROLEWISE_MENU">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="MODULE_ID" Type="int" />
+          <Property Name="USER_GROUP_ID" Type="bigint" Nullable="false" />
+          <Property Name="PARENT_MENU_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="PARENT_MENU_CONTENT" Type="varchar" MaxLength="100" />
+          <Property Name="CHILD_MENU_NAME" Type="varchar" MaxLength="50" />
+          <Property Name="CHILD_MENU_CONTENT" Type="varchar" MaxLength="100" />
+        </EntityType>
+        <EntityType Name="SeatFareDetails">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="JournyFromLocation" Type="nvarchar" MaxLength="50" />
+          <Property Name="JournyToLocation" Type="nvarchar" MaxLength="50" />
+          <Property Name="SeatFare" Type="int" />
+        </EntityType>
+        <EntityType Name="TICKET_DETAILS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Time" Type="nvarchar" MaxLength="50" />
+          <Property Name="BusAssingnPKId" Type="int" />
+          <Property Name="BusUniqueCode" Type="varchar" MaxLength="50" />
+          <Property Name="ClintId" Type="int" />
+          <Property Name="ClintName" Type="nvarchar" MaxLength="50" />
+          <Property Name="Gender" Type="nvarchar" MaxLength="50" />
+          <Property Name="ClintAddress" Type="nvarchar" MaxLength="50" />
+          <Property Name="ClintMobile" Type="nvarchar" MaxLength="50" />
+          <Property Name="BusNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="BusType" Type="nvarchar" MaxLength="50" />
+          <Property Name="Sift" Type="nvarchar" MaxLength="50" />
+          <Property Name="Status" Type="nvarchar" MaxLength="50" />
+          <Property Name="SeatNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="EntryDate" Type="date" />
+          <Property Name="TicketPrice" Type="int" />
+          <Property Name="TicketPricePaid" Type="int" />
+          <Property Name="TicketPriceDiscount" Type="int" />
+          <Property Name="TicketPriceDue" Type="int" />
+          <Property Name="TicketNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="BookingNo" Type="nvarchar" MaxLength="50" />
+          <Property Name="JournyDate" Type="date" />
+          <Property Name="JournyFrom" Type="nvarchar" MaxLength="50" />
+          <Property Name="JournyTo" Type="nvarchar" MaxLength="50" />
+          <Property Name="UserName" Type="nvarchar" MaxLength="50" />
+          <Property Name="UserID" Type="int" />
+          <Property Name="Age" Type="int" />
+        </EntityType>
+        <EntityType Name="USER_GROUP">
+          <Key>
+            <PropertyRef Name="GROUP_ID" />
+          </Key>
+          <Property Name="GROUP_ID" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="GROUP_NAME" Type="varchar" MaxLength="50" />
+        </EntityType>
+        <Association Name="FK_DUSER_USER_GROUP">
+          <End Role="USER_GROUP" Type="Self.USER_GROUP" Multiplicity="1" />
+          <End Role="DUSER" Type="Self.DUSER" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USER_GROUP">
+              <PropertyRef Name="GROUP_ID" />
+            </Principal>
+            <Dependent Role="DUSER">
+              <PropertyRef Name="USER_GROUP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MODULE_PERMISSION_USER_GROUP">
+          <End Role="USER_GROUP" Type="Self.USER_GROUP" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="MODULE_PERMISSION" Type="Self.MODULE_PERMISSION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USER_GROUP">
+              <PropertyRef Name="GROUP_ID" />
+            </Principal>
+            <Dependent Role="MODULE_PERMISSION">
+              <PropertyRef Name="USER_GROUP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ROLEWISE_MENU_MODULE_PERMISSION">
+          <End Role="MODULE_PERMISSION" Type="Self.MODULE_PERMISSION" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Role="ROLEWISE_MENU" Type="Self.ROLEWISE_MENU" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MODULE_PERMISSION">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ROLEWISE_MENU">
+              <PropertyRef Name="MODULE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ROLEWISE_MENU_USER_GROUP">
+          <End Role="USER_GROUP" Type="Self.USER_GROUP" Multiplicity="1" />
+          <End Role="ROLEWISE_MENU" Type="Self.ROLEWISE_MENU" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USER_GROUP">
+              <PropertyRef Name="GROUP_ID" />
+            </Principal>
+            <Dependent Role="ROLEWISE_MENU">
+              <PropertyRef Name="USER_GROUP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TICKET_DETAILS_BUS_ASSIGN">
+          <End Role="BUS_ASSIGN" Type="Self.BUS_ASSIGN" Multiplicity="0..1" />
+          <End Role="TICKET_DETAILS" Type="Self.TICKET_DETAILS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BUS_ASSIGN">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TICKET_DETAILS">
+              <PropertyRef Name="BusAssingnPKId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TICKET_DETAILS_DUSER">
+          <End Role="DUSER" Type="Self.DUSER" Multiplicity="0..1" />
+          <End Role="TICKET_DETAILS" Type="Self.TICKET_DETAILS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DUSER">
+              <PropertyRef Name="USER_ID" />
+            </Principal>
+            <Dependent Role="TICKET_DETAILS">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BUSTICKETINGModelStoreContainer">
+          <EntitySet Name="BUS_ASSIGN" EntityType="Self.BUS_ASSIGN" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="DUSER" EntityType="Self.DUSER" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="MODULE_PERMISSION" EntityType="Self.MODULE_PERMISSION" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="PRE_SETUP" EntityType="Self.PRE_SETUP" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="ROLEWISE_MENU" EntityType="Self.ROLEWISE_MENU" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="SeatFareDetails" EntityType="Self.SeatFareDetails" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TICKET_DETAILS" EntityType="Self.TICKET_DETAILS" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="USER_GROUP" EntityType="Self.USER_GROUP" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_DUSER_USER_GROUP" Association="Self.FK_DUSER_USER_GROUP">
+            <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+            <End Role="DUSER" EntitySet="DUSER" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MODULE_PERMISSION_USER_GROUP" Association="Self.FK_MODULE_PERMISSION_USER_GROUP">
+            <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+            <End Role="MODULE_PERMISSION" EntitySet="MODULE_PERMISSION" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ROLEWISE_MENU_MODULE_PERMISSION" Association="Self.FK_ROLEWISE_MENU_MODULE_PERMISSION">
+            <End Role="MODULE_PERMISSION" EntitySet="MODULE_PERMISSION" />
+            <End Role="ROLEWISE_MENU" EntitySet="ROLEWISE_MENU" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ROLEWISE_MENU_USER_GROUP" Association="Self.FK_ROLEWISE_MENU_USER_GROUP">
+            <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+            <End Role="ROLEWISE_MENU" EntitySet="ROLEWISE_MENU" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TICKET_DETAILS_BUS_ASSIGN" Association="Self.FK_TICKET_DETAILS_BUS_ASSIGN">
+            <End Role="BUS_ASSIGN" EntitySet="BUS_ASSIGN" />
+            <End Role="TICKET_DETAILS" EntitySet="TICKET_DETAILS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TICKET_DETAILS_DUSER" Association="Self.FK_TICKET_DETAILS_DUSER">
+            <End Role="DUSER" EntitySet="DUSER" />
+            <End Role="TICKET_DETAILS" EntitySet="TICKET_DETAILS" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BUSTICKETINGModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="BUSTICKETINGEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="BUS_ASSIGN" EntityType="BUSTICKETINGModel.BUS_ASSIGN" />
+          <EntitySet Name="DUSERs" EntityType="BUSTICKETINGModel.DUSER" />
+          <EntitySet Name="MODULE_PERMISSION" EntityType="BUSTICKETINGModel.MODULE_PERMISSION" />
+          <EntitySet Name="PRE_SETUP" EntityType="BUSTICKETINGModel.PRE_SETUP" />
+          <EntitySet Name="ROLEWISE_MENU" EntityType="BUSTICKETINGModel.ROLEWISE_MENU" />
+          <EntitySet Name="SeatFareDetails" EntityType="BUSTICKETINGModel.SeatFareDetail" />
+          <EntitySet Name="TICKET_DETAILS" EntityType="BUSTICKETINGModel.TICKET_DETAILS" />
+          <EntitySet Name="USER_GROUP" EntityType="BUSTICKETINGModel.USER_GROUP" />
+          <AssociationSet Name="FK_TICKET_DETAILS_BUS_ASSIGN" Association="BUSTICKETINGModel.FK_TICKET_DETAILS_BUS_ASSIGN">
+            <End Role="BUS_ASSIGN" EntitySet="BUS_ASSIGN" />
+            <End Role="TICKET_DETAILS" EntitySet="TICKET_DETAILS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_DUSER_USER_GROUP" Association="BUSTICKETINGModel.FK_DUSER_USER_GROUP">
+            <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+            <End Role="DUSER" EntitySet="DUSERs" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TICKET_DETAILS_DUSER" Association="BUSTICKETINGModel.FK_TICKET_DETAILS_DUSER">
+            <End Role="DUSER" EntitySet="DUSERs" />
+            <End Role="TICKET_DETAILS" EntitySet="TICKET_DETAILS" />
+          </AssociationSet>
+          <AssociationSet Name="FK_MODULE_PERMISSION_USER_GROUP" Association="BUSTICKETINGModel.FK_MODULE_PERMISSION_USER_GROUP">
+            <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+            <End Role="MODULE_PERMISSION" EntitySet="MODULE_PERMISSION" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ROLEWISE_MENU_MODULE_PERMISSION" Association="BUSTICKETINGModel.FK_ROLEWISE_MENU_MODULE_PERMISSION">
+            <End Role="MODULE_PERMISSION" EntitySet="MODULE_PERMISSION" />
+            <End Role="ROLEWISE_MENU" EntitySet="ROLEWISE_MENU" />
+          </AssociationSet>
+          <AssociationSet Name="FK_ROLEWISE_MENU_USER_GROUP" Association="BUSTICKETINGModel.FK_ROLEWISE_MENU_USER_GROUP">
+            <End Role="USER_GROUP" EntitySet="USER_GROUP" />
+            <End Role="ROLEWISE_MENU" EntitySet="ROLEWISE_MENU" />
+          </AssociationSet>
+        </EntityContainer>
+        <EntityType Name="BUS_ASSIGN">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="DateOfDiparture" Type="DateTime" Precision="0" />
+          <Property Name="UniqueId" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TimeOfDiparture" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Sift" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="A1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="A2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="A3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="A4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="B4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="C1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="C2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="C3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="C4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="D1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="D2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="D3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="D4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="E1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="E2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="E3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="E4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="F4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="G1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="G2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="G3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="G4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="H1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="H2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="H3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="H4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="I1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="I2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="I3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="I4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="J1" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="J2" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="J3" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="J4" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="BusNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="Type" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="TicketPrice" Type="Int32" />
+          <Property Name="TicketCounter" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="LastStop" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ReportingTime" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="TICKET_DETAILS" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_BUS_ASSIGN" FromRole="BUS_ASSIGN" ToRole="TICKET_DETAILS" />
+        </EntityType>
+        <EntityType Name="DUSER">
+          <Key>
+            <PropertyRef Name="USER_ID" />
+          </Key>
+          <Property Name="USER_ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="USER_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="USER_PASSWORD" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="USER_GROUP_ID" Type="Int64" Nullable="false" />
+          <NavigationProperty Name="USER_GROUP" Relationship="BUSTICKETINGModel.FK_DUSER_USER_GROUP" FromRole="DUSER" ToRole="USER_GROUP" />
+          <NavigationProperty Name="TICKET_DETAILS" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_DUSER" FromRole="DUSER" ToRole="TICKET_DETAILS" />
+        </EntityType>
+        <EntityType Name="MODULE_PERMISSION">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MODULE_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="USER_GROUP_ID" Type="Int64" />
+          <NavigationProperty Name="USER_GROUP" Relationship="BUSTICKETINGModel.FK_MODULE_PERMISSION_USER_GROUP" FromRole="MODULE_PERMISSION" ToRole="USER_GROUP" />
+          <NavigationProperty Name="ROLEWISE_MENU" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_MODULE_PERMISSION" FromRole="MODULE_PERMISSION" ToRole="ROLEWISE_MENU" />
+        </EntityType>
+        <EntityType Name="PRE_SETUP">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BusType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sift" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BusNumber" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="TicketCounterName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+        </EntityType>
+        <EntityType Name="ROLEWISE_MENU">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="MODULE_ID" Type="Int32" />
+          <Property Name="USER_GROUP_ID" Type="Int64" Nullable="false" />
+          <Property Name="PARENT_MENU_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="PARENT_MENU_CONTENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <Property Name="CHILD_MENU_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="CHILD_MENU_CONTENT" Type="String" MaxLength="100" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="MODULE_PERMISSION" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_MODULE_PERMISSION" FromRole="ROLEWISE_MENU" ToRole="MODULE_PERMISSION" />
+          <NavigationProperty Name="USER_GROUP" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_USER_GROUP" FromRole="ROLEWISE_MENU" ToRole="USER_GROUP" />
+        </EntityType>
+        <EntityType Name="SeatFareDetail">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="JournyFromLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JournyToLocation" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SeatFare" Type="Int32" />
+        </EntityType>
+        <EntityType Name="TICKET_DETAILS">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Time" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BusAssingnPKId" Type="Int32" />
+          <Property Name="BusUniqueCode" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <Property Name="ClintId" Type="Int32" />
+          <Property Name="ClintName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Gender" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ClintAddress" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="ClintMobile" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BusNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BusType" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Sift" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Status" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="SeatNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="EntryDate" Type="DateTime" Precision="0" />
+          <Property Name="TicketPrice" Type="Int32" />
+          <Property Name="TicketPricePaid" Type="Int32" />
+          <Property Name="TicketPriceDiscount" Type="Int32" />
+          <Property Name="TicketPriceDue" Type="Int32" />
+          <Property Name="TicketNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="BookingNo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JournyDate" Type="DateTime" Precision="0" />
+          <Property Name="JournyFrom" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="JournyTo" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UserName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="UserID" Type="Int32" />
+          <Property Name="Age" Type="Int32" />
+          <NavigationProperty Name="BUS_ASSIGN" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_BUS_ASSIGN" FromRole="TICKET_DETAILS" ToRole="BUS_ASSIGN" />
+          <NavigationProperty Name="DUSER" Relationship="BUSTICKETINGModel.FK_TICKET_DETAILS_DUSER" FromRole="TICKET_DETAILS" ToRole="DUSER" />
+        </EntityType>
+        <EntityType Name="USER_GROUP">
+          <Key>
+            <PropertyRef Name="GROUP_ID" />
+          </Key>
+          <Property Name="GROUP_ID" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="GROUP_NAME" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+          <NavigationProperty Name="DUSERs" Relationship="BUSTICKETINGModel.FK_DUSER_USER_GROUP" FromRole="USER_GROUP" ToRole="DUSER" />
+          <NavigationProperty Name="MODULE_PERMISSION" Relationship="BUSTICKETINGModel.FK_MODULE_PERMISSION_USER_GROUP" FromRole="USER_GROUP" ToRole="MODULE_PERMISSION" />
+          <NavigationProperty Name="ROLEWISE_MENU" Relationship="BUSTICKETINGModel.FK_ROLEWISE_MENU_USER_GROUP" FromRole="USER_GROUP" ToRole="ROLEWISE_MENU" />
+        </EntityType>
+        <Association Name="FK_TICKET_DETAILS_BUS_ASSIGN">
+          <End Type="BUSTICKETINGModel.BUS_ASSIGN" Role="BUS_ASSIGN" Multiplicity="0..1" />
+          <End Type="BUSTICKETINGModel.TICKET_DETAILS" Role="TICKET_DETAILS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BUS_ASSIGN">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="TICKET_DETAILS">
+              <PropertyRef Name="BusAssingnPKId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_DUSER_USER_GROUP">
+          <End Type="BUSTICKETINGModel.USER_GROUP" Role="USER_GROUP" Multiplicity="1" />
+          <End Type="BUSTICKETINGModel.DUSER" Role="DUSER" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USER_GROUP">
+              <PropertyRef Name="GROUP_ID" />
+            </Principal>
+            <Dependent Role="DUSER">
+              <PropertyRef Name="USER_GROUP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TICKET_DETAILS_DUSER">
+          <End Type="BUSTICKETINGModel.DUSER" Role="DUSER" Multiplicity="0..1" />
+          <End Type="BUSTICKETINGModel.TICKET_DETAILS" Role="TICKET_DETAILS" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="DUSER">
+              <PropertyRef Name="USER_ID" />
+            </Principal>
+            <Dependent Role="TICKET_DETAILS">
+              <PropertyRef Name="UserID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_MODULE_PERMISSION_USER_GROUP">
+          <End Type="BUSTICKETINGModel.USER_GROUP" Role="USER_GROUP" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="BUSTICKETINGModel.MODULE_PERMISSION" Role="MODULE_PERMISSION" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USER_GROUP">
+              <PropertyRef Name="GROUP_ID" />
+            </Principal>
+            <Dependent Role="MODULE_PERMISSION">
+              <PropertyRef Name="USER_GROUP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ROLEWISE_MENU_MODULE_PERMISSION">
+          <End Type="BUSTICKETINGModel.MODULE_PERMISSION" Role="MODULE_PERMISSION" Multiplicity="0..1">
+            <OnDelete Action="Cascade" />
+          </End>
+          <End Type="BUSTICKETINGModel.ROLEWISE_MENU" Role="ROLEWISE_MENU" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="MODULE_PERMISSION">
+              <PropertyRef Name="ID" />
+            </Principal>
+            <Dependent Role="ROLEWISE_MENU">
+              <PropertyRef Name="MODULE_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_ROLEWISE_MENU_USER_GROUP">
+          <End Type="BUSTICKETINGModel.USER_GROUP" Role="USER_GROUP" Multiplicity="1" />
+          <End Type="BUSTICKETINGModel.ROLEWISE_MENU" Role="ROLEWISE_MENU" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="USER_GROUP">
+              <PropertyRef Name="GROUP_ID" />
+            </Principal>
+            <Dependent Role="ROLEWISE_MENU">
+              <PropertyRef Name="USER_GROUP_ID" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BUSTICKETINGModelStoreContainer" CdmEntityContainer="BUSTICKETINGEntities">
+          <EntitySetMapping Name="BUS_ASSIGN">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.BUS_ASSIGN">
+              <MappingFragment StoreEntitySet="BUS_ASSIGN">
+                <ScalarProperty Name="ReportingTime" ColumnName="ReportingTime" />
+                <ScalarProperty Name="LastStop" ColumnName="LastStop" />
+                <ScalarProperty Name="TicketCounter" ColumnName="TicketCounter" />
+                <ScalarProperty Name="TicketPrice" ColumnName="TicketPrice" />
+                <ScalarProperty Name="Type" ColumnName="Type" />
+                <ScalarProperty Name="BusNumber" ColumnName="BusNumber" />
+                <ScalarProperty Name="J4" ColumnName="J4" />
+                <ScalarProperty Name="J3" ColumnName="J3" />
+                <ScalarProperty Name="J2" ColumnName="J2" />
+                <ScalarProperty Name="J1" ColumnName="J1" />
+                <ScalarProperty Name="I4" ColumnName="I4" />
+                <ScalarProperty Name="I3" ColumnName="I3" />
+                <ScalarProperty Name="I2" ColumnName="I2" />
+                <ScalarProperty Name="I1" ColumnName="I1" />
+                <ScalarProperty Name="H4" ColumnName="H4" />
+                <ScalarProperty Name="H3" ColumnName="H3" />
+                <ScalarProperty Name="H2" ColumnName="H2" />
+                <ScalarProperty Name="H1" ColumnName="H1" />
+                <ScalarProperty Name="G4" ColumnName="G4" />
+                <ScalarProperty Name="G3" ColumnName="G3" />
+                <ScalarProperty Name="G2" ColumnName="G2" />
+                <ScalarProperty Name="G1" ColumnName="G1" />
+                <ScalarProperty Name="F4" ColumnName="F4" />
+                <ScalarProperty Name="F3" ColumnName="F3" />
+                <ScalarProperty Name="F2" ColumnName="F2" />
+                <ScalarProperty Name="F1" ColumnName="F1" />
+                <ScalarProperty Name="E4" ColumnName="E4" />
+                <ScalarProperty Name="E3" ColumnName="E3" />
+                <ScalarProperty Name="E2" ColumnName="E2" />
+                <ScalarProperty Name="E1" ColumnName="E1" />
+                <ScalarProperty Name="D4" ColumnName="D4" />
+                <ScalarProperty Name="D3" ColumnName="D3" />
+                <ScalarProperty Name="D2" ColumnName="D2" />
+                <ScalarProperty Name="D1" ColumnName="D1" />
+                <ScalarProperty Name="C4" ColumnName="C4" />
+                <ScalarProperty Name="C3" ColumnName="C3" />
+                <ScalarProperty Name="C2" ColumnName="C2" />
+                <ScalarProperty Name="C1" ColumnName="C1" />
+                <ScalarProperty Name="B4" ColumnName="B4" />
+                <ScalarProperty Name="B3" ColumnName="B3" />
+                <ScalarProperty Name="B2" ColumnName="B2" />
+                <ScalarProperty Name="B1" ColumnName="B1" />
+                <ScalarProperty Name="A4" ColumnName="A4" />
+                <ScalarProperty Name="A3" ColumnName="A3" />
+                <ScalarProperty Name="A2" ColumnName="A2" />
+                <ScalarProperty Name="A1" ColumnName="A1" />
+                <ScalarProperty Name="Sift" ColumnName="Sift" />
+                <ScalarProperty Name="TimeOfDiparture" ColumnName="TimeOfDiparture" />
+                <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+                <ScalarProperty Name="DateOfDiparture" ColumnName="DateOfDiparture" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="DUSERs">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.DUSER">
+              <MappingFragment StoreEntitySet="DUSER">
+                <ScalarProperty Name="USER_GROUP_ID" ColumnName="USER_GROUP_ID" />
+                <ScalarProperty Name="USER_PASSWORD" ColumnName="USER_PASSWORD" />
+                <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+                <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="MODULE_PERMISSION">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.MODULE_PERMISSION">
+              <MappingFragment StoreEntitySet="MODULE_PERMISSION">
+                <ScalarProperty Name="USER_GROUP_ID" ColumnName="USER_GROUP_ID" />
+                <ScalarProperty Name="MODULE_NAME" ColumnName="MODULE_NAME" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="PRE_SETUP">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.PRE_SETUP">
+              <MappingFragment StoreEntitySet="PRE_SETUP">
+                <ScalarProperty Name="TicketCounterName" ColumnName="TicketCounterName" />
+                <ScalarProperty Name="BusNumber" ColumnName="BusNumber" />
+                <ScalarProperty Name="Sift" ColumnName="Sift" />
+                <ScalarProperty Name="BusType" ColumnName="BusType" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="ROLEWISE_MENU">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.ROLEWISE_MENU">
+              <MappingFragment StoreEntitySet="ROLEWISE_MENU">
+                <ScalarProperty Name="CHILD_MENU_CONTENT" ColumnName="CHILD_MENU_CONTENT" />
+                <ScalarProperty Name="CHILD_MENU_NAME" ColumnName="CHILD_MENU_NAME" />
+                <ScalarProperty Name="PARENT_MENU_CONTENT" ColumnName="PARENT_MENU_CONTENT" />
+                <ScalarProperty Name="PARENT_MENU_NAME" ColumnName="PARENT_MENU_NAME" />
+                <ScalarProperty Name="USER_GROUP_ID" ColumnName="USER_GROUP_ID" />
+                <ScalarProperty Name="MODULE_ID" ColumnName="MODULE_ID" />
+                <ScalarProperty Name="ID" ColumnName="ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="SeatFareDetails">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.SeatFareDetail">
+              <MappingFragment StoreEntitySet="SeatFareDetails">
+                <ScalarProperty Name="SeatFare" ColumnName="SeatFare" />
+                <ScalarProperty Name="JournyToLocation" ColumnName="JournyToLocation" />
+                <ScalarProperty Name="JournyFromLocation" ColumnName="JournyFromLocation" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TICKET_DETAILS">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.TICKET_DETAILS">
+              <MappingFragment StoreEntitySet="TICKET_DETAILS">
+                <ScalarProperty Name="Age" ColumnName="Age" />
+                <ScalarProperty Name="UserID" ColumnName="UserID" />
+                <ScalarProperty Name="UserName" ColumnName="UserName" />
+                <ScalarProperty Name="JournyTo" ColumnName="JournyTo" />
+                <ScalarProperty Name="JournyFrom" ColumnName="JournyFrom" />
+                <ScalarProperty Name="JournyDate" ColumnName="JournyDate" />
+                <ScalarProperty Name="BookingNo" ColumnName="BookingNo" />
+                <ScalarProperty Name="TicketNo" ColumnName="TicketNo" />
+                <ScalarProperty Name="TicketPriceDue" ColumnName="TicketPriceDue" />
+                <ScalarProperty Name="TicketPriceDiscount" ColumnName="TicketPriceDiscount" />
+                <ScalarProperty Name="TicketPricePaid" ColumnName="TicketPricePaid" />
+                <ScalarProperty Name="TicketPrice" ColumnName="TicketPrice" />
+                <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+                <ScalarProperty Name="SeatNo" ColumnName="SeatNo" />
+                <ScalarProperty Name="Status" ColumnName="Status" />
+                <ScalarProperty Name="Sift" ColumnName="Sift" />
+                <ScalarProperty Name="BusType" ColumnName="BusType" />
+                <ScalarProperty Name="BusNo" ColumnName="BusNo" />
+                <ScalarProperty Name="ClintMobile" ColumnName="ClintMobile" />
+                <ScalarProperty Name="ClintAddress" ColumnName="ClintAddress" />
+                <ScalarProperty Name="Gender" ColumnName="Gender" />
+                <ScalarProperty Name="ClintName" ColumnName="ClintName" />
+                <ScalarProperty Name="ClintId" ColumnName="ClintId" />
+                <ScalarProperty Name="BusUniqueCode" ColumnName="BusUniqueCode" />
+                <ScalarProperty Name="BusAssingnPKId" ColumnName="BusAssingnPKId" />
+                <ScalarProperty Name="Time" ColumnName="Time" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="USER_GROUP">
+            <EntityTypeMapping TypeName="BUSTICKETINGModel.USER_GROUP">
+              <MappingFragment StoreEntitySet="USER_GROUP">
+                <ScalarProperty Name="GROUP_NAME" ColumnName="GROUP_NAME" />
+                <ScalarProperty Name="GROUP_ID" ColumnName="GROUP_ID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="true" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="true" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

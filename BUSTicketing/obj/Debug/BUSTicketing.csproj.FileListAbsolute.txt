@@ -1,0 +1,171 @@
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\bin\Debug\BUSTicketing.exe.config
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\bin\Debug\BUSTicketing.exe
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\bin\Debug\BUSTicketing.pdb
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing.csprojResolveAssemblyReference.cache
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\MainWindow.baml
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\MainWindow.g.cs
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\App.g.cs
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing_MarkupCompile.cache
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing.g.resources
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing.Properties.Resources.resources
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing.csproj.GenerateResource.Cache
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing.exe
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\BUSTicketing.pdb
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\UI\TicketingUI.baml
+E:\Application\WPF_NewProjec(3_layer_architecture)\BUSTicketing\obj\Debug\UI\TicketingUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\BUSTicketing.exe.config
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\BUSTicketing.exe
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\BUSTicketing.pdb
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\BLL.dll
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\ENTITY.dll
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\EntityFramework.dll
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\DAL.dll
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\DATA.dll
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\BLL.pdb
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\ENTITY.pdb
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\EntityFramework.xml
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\DAL.pdb
+E:\Application\BusTicketingApp\BUSTicketing\bin\Debug\DATA.pdb
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing.csprojResolveAssemblyReference.cache
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\MainWindow.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\ButtonDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\ComboBoxDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\DataGridDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\FormDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\GroupBoxDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\ListViewDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\TabItemDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Resources\TextBoxDictionary.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\BusAssignUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\LoginUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\GroupSetupUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\MenuPermissionUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\ModulePermissionUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\SecurityDashBoardUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\UserSetUpUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\ModuleUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\TicketingUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\App.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\MainWindow.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\BusAssignUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\LoginUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\GroupSetupUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\MenuPermissionUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\ModulePermissionUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\SecurityDashBoardUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\Login\UserSetUpUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\ModuleUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\UI\TicketingUI.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\App.g.cs
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing_MarkupCompile.cache
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing.g.resources
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing.Properties.Resources.resources
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing.csproj.GenerateResource.Cache
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing.exe
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\BUSTicketing.pdb
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Reporting\UI\ReportViewerUI.baml
+E:\Application\BusTicketingApp\BUSTicketing\obj\Debug\Reporting\UI\ReportViewerUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\BUSTicketing.exe.config
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\BUSTicketing.exe
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\BUSTicketing.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\BLL.dll
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\ENTITY.dll
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\EntityFramework.dll
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\DAL.dll
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\DATA.dll
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\BLL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\ENTITY.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\EntityFramework.xml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\DAL.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\bin\Debug\DATA.pdb
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing.csprojResolveAssemblyReference.cache
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\MainWindow.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Reporting\UI\ReportViewerUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\ButtonDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\ComboBoxDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\DataGridDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\FormDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\GroupBoxDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\ListViewDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\TabItemDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Resources\TextBoxDictionary.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\BusAssignUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\LoginUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\GroupSetupUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\MenuPermissionUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\ModulePermissionUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\SecurityDashBoardUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\UserSetUpUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\ModuleUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\TicketingUI.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\App.baml
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\MainWindow.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\Reporting\UI\ReportViewerUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\BusAssignUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\LoginUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\GroupSetupUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\MenuPermissionUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\ModulePermissionUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\SecurityDashBoardUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\Login\UserSetUpUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\ModuleUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\UI\TicketingUI.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\App.g.cs
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing_MarkupCompile.cache
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing.g.resources
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing.Properties.Resources.resources
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing.csproj.GenerateResource.Cache
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing.exe
+H:\APP\BusTicketingApp__September _19, _2015\BUSTicketing\obj\Debug\BUSTicketing.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\BUSTicketing.exe.config
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing.exe
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\BUSTicketing.exe
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\BUSTicketing.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\BLL.dll
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\ENTITY.dll
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\EntityFramework.dll
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\DAL.dll
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\DATA.dll
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\BLL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\ENTITY.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\EntityFramework.xml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\DAL.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\bin\Debug\DATA.pdb
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing.csprojResolveAssemblyReference.cache
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\MainWindow.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Reporting\UI\ReportViewerUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\ButtonDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\ComboBoxDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\DataGridDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\FormDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\GroupBoxDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\ListViewDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\TabItemDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Resources\TextBoxDictionary.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\BusAssignUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\LoginUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\GroupSetupUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\MenuPermissionUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\ModulePermissionUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\SecurityDashBoardUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\UserSetUpUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\ModuleUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\TicketingUI.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\App.baml
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\MainWindow.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\Reporting\UI\ReportViewerUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\BusAssignUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\LoginUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\GroupSetupUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\MenuPermissionUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\ModulePermissionUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\SecurityDashBoardUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\Login\UserSetUpUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\ModuleUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\UI\TicketingUI.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\App.g.cs
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing_MarkupCompile.cache
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing.g.resources
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing.Properties.Resources.resources
+C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\BUSTicketing.csproj.GenerateResource.Cache

@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="BUSTICKETINGModelStoreContainer" CdmEntityContainer="BUSTICKETINGEntities">
+    <EntitySetMapping Name="BUS_ASSIGN">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.BUS_ASSIGN">
+        <MappingFragment StoreEntitySet="BUS_ASSIGN">
+          <ScalarProperty Name="ReportingTime" ColumnName="ReportingTime" />
+          <ScalarProperty Name="LastStop" ColumnName="LastStop" />
+          <ScalarProperty Name="TicketCounter" ColumnName="TicketCounter" />
+          <ScalarProperty Name="TicketPrice" ColumnName="TicketPrice" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+          <ScalarProperty Name="BusNumber" ColumnName="BusNumber" />
+          <ScalarProperty Name="J4" ColumnName="J4" />
+          <ScalarProperty Name="J3" ColumnName="J3" />
+          <ScalarProperty Name="J2" ColumnName="J2" />
+          <ScalarProperty Name="J1" ColumnName="J1" />
+          <ScalarProperty Name="I4" ColumnName="I4" />
+          <ScalarProperty Name="I3" ColumnName="I3" />
+          <ScalarProperty Name="I2" ColumnName="I2" />
+          <ScalarProperty Name="I1" ColumnName="I1" />
+          <ScalarProperty Name="H4" ColumnName="H4" />
+          <ScalarProperty Name="H3" ColumnName="H3" />
+          <ScalarProperty Name="H2" ColumnName="H2" />
+          <ScalarProperty Name="H1" ColumnName="H1" />
+          <ScalarProperty Name="G4" ColumnName="G4" />
+          <ScalarProperty Name="G3" ColumnName="G3" />
+          <ScalarProperty Name="G2" ColumnName="G2" />
+          <ScalarProperty Name="G1" ColumnName="G1" />
+          <ScalarProperty Name="F4" ColumnName="F4" />
+          <ScalarProperty Name="F3" ColumnName="F3" />
+          <ScalarProperty Name="F2" ColumnName="F2" />
+          <ScalarProperty Name="F1" ColumnName="F1" />
+          <ScalarProperty Name="E4" ColumnName="E4" />
+          <ScalarProperty Name="E3" ColumnName="E3" />
+          <ScalarProperty Name="E2" ColumnName="E2" />
+          <ScalarProperty Name="E1" ColumnName="E1" />
+          <ScalarProperty Name="D4" ColumnName="D4" />
+          <ScalarProperty Name="D3" ColumnName="D3" />
+          <ScalarProperty Name="D2" ColumnName="D2" />
+          <ScalarProperty Name="D1" ColumnName="D1" />
+          <ScalarProperty Name="C4" ColumnName="C4" />
+          <ScalarProperty Name="C3" ColumnName="C3" />
+          <ScalarProperty Name="C2" ColumnName="C2" />
+          <ScalarProperty Name="C1" ColumnName="C1" />
+          <ScalarProperty Name="B4" ColumnName="B4" />
+          <ScalarProperty Name="B3" ColumnName="B3" />
+          <ScalarProperty Name="B2" ColumnName="B2" />
+          <ScalarProperty Name="B1" ColumnName="B1" />
+          <ScalarProperty Name="A4" ColumnName="A4" />
+          <ScalarProperty Name="A3" ColumnName="A3" />
+          <ScalarProperty Name="A2" ColumnName="A2" />
+          <ScalarProperty Name="A1" ColumnName="A1" />
+          <ScalarProperty Name="Sift" ColumnName="Sift" />
+          <ScalarProperty Name="TimeOfDiparture" ColumnName="TimeOfDiparture" />
+          <ScalarProperty Name="UniqueId" ColumnName="UniqueId" />
+          <ScalarProperty Name="DateOfDiparture" ColumnName="DateOfDiparture" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="DUSERs">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.DUSER">
+        <MappingFragment StoreEntitySet="DUSER">
+          <ScalarProperty Name="USER_GROUP_ID" ColumnName="USER_GROUP_ID" />
+          <ScalarProperty Name="USER_PASSWORD" ColumnName="USER_PASSWORD" />
+          <ScalarProperty Name="USER_NAME" ColumnName="USER_NAME" />
+          <ScalarProperty Name="USER_ID" ColumnName="USER_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="MODULE_PERMISSION">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.MODULE_PERMISSION">
+        <MappingFragment StoreEntitySet="MODULE_PERMISSION">
+          <ScalarProperty Name="USER_GROUP_ID" ColumnName="USER_GROUP_ID" />
+          <ScalarProperty Name="MODULE_NAME" ColumnName="MODULE_NAME" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="PRE_SETUP">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.PRE_SETUP">
+        <MappingFragment StoreEntitySet="PRE_SETUP">
+          <ScalarProperty Name="TicketCounterName" ColumnName="TicketCounterName" />
+          <ScalarProperty Name="BusNumber" ColumnName="BusNumber" />
+          <ScalarProperty Name="Sift" ColumnName="Sift" />
+          <ScalarProperty Name="BusType" ColumnName="BusType" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ROLEWISE_MENU">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.ROLEWISE_MENU">
+        <MappingFragment StoreEntitySet="ROLEWISE_MENU">
+          <ScalarProperty Name="CHILD_MENU_CONTENT" ColumnName="CHILD_MENU_CONTENT" />
+          <ScalarProperty Name="CHILD_MENU_NAME" ColumnName="CHILD_MENU_NAME" />
+          <ScalarProperty Name="PARENT_MENU_CONTENT" ColumnName="PARENT_MENU_CONTENT" />
+          <ScalarProperty Name="PARENT_MENU_NAME" ColumnName="PARENT_MENU_NAME" />
+          <ScalarProperty Name="USER_GROUP_ID" ColumnName="USER_GROUP_ID" />
+          <ScalarProperty Name="MODULE_ID" ColumnName="MODULE_ID" />
+          <ScalarProperty Name="ID" ColumnName="ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="SeatFareDetails">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.SeatFareDetail">
+        <MappingFragment StoreEntitySet="SeatFareDetails">
+          <ScalarProperty Name="SeatFare" ColumnName="SeatFare" />
+          <ScalarProperty Name="JournyToLocation" ColumnName="JournyToLocation" />
+          <ScalarProperty Name="JournyFromLocation" ColumnName="JournyFromLocation" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TICKET_DETAILS">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.TICKET_DETAILS">
+        <MappingFragment StoreEntitySet="TICKET_DETAILS">
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="JournyTo" ColumnName="JournyTo" />
+          <ScalarProperty Name="JournyFrom" ColumnName="JournyFrom" />
+          <ScalarProperty Name="JournyDate" ColumnName="JournyDate" />
+          <ScalarProperty Name="BookingNo" ColumnName="BookingNo" />
+          <ScalarProperty Name="TicketNo" ColumnName="TicketNo" />
+          <ScalarProperty Name="TicketPriceDue" ColumnName="TicketPriceDue" />
+          <ScalarProperty Name="TicketPriceDiscount" ColumnName="TicketPriceDiscount" />
+          <ScalarProperty Name="TicketPricePaid" ColumnName="TicketPricePaid" />
+          <ScalarProperty Name="TicketPrice" ColumnName="TicketPrice" />
+          <ScalarProperty Name="EntryDate" ColumnName="EntryDate" />
+          <ScalarProperty Name="SeatNo" ColumnName="SeatNo" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+          <ScalarProperty Name="Sift" ColumnName="Sift" />
+          <ScalarProperty Name="BusType" ColumnName="BusType" />
+          <ScalarProperty Name="BusNo" ColumnName="BusNo" />
+          <ScalarProperty Name="ClintMobile" ColumnName="ClintMobile" />
+          <ScalarProperty Name="ClintAddress" ColumnName="ClintAddress" />
+          <ScalarProperty Name="Gender" ColumnName="Gender" />
+          <ScalarProperty Name="ClintName" ColumnName="ClintName" />
+          <ScalarProperty Name="ClintId" ColumnName="ClintId" />
+          <ScalarProperty Name="BusUniqueCode" ColumnName="BusUniqueCode" />
+          <ScalarProperty Name="BusAssingnPKId" ColumnName="BusAssingnPKId" />
+          <ScalarProperty Name="Time" ColumnName="Time" />
+          <ScalarProperty Name="Id" ColumnName="Id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="USER_GROUP">
+      <EntityTypeMapping TypeName="BUSTICKETINGModel.USER_GROUP">
+        <MappingFragment StoreEntitySet="USER_GROUP">
+          <ScalarProperty Name="GROUP_NAME" ColumnName="GROUP_NAME" />
+          <ScalarProperty Name="GROUP_ID" ColumnName="GROUP_ID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

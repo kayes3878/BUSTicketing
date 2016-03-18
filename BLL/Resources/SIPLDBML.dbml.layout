@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SIPLDBML">
+  <DataContextMoniker Name="/SIPLDBMLDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b7d5858b-a4b9-4dda-aca5-4e31913faa03" absoluteBounds="0.75, 3.875, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/SIPLDBMLDataContext/USER_GROUP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e8ad3364-de81-428f-b807-fdd715a0a2ba" absoluteBounds="0.765, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="6f69de46-c0fb-443b-a925-bf5256f2ea3c" absoluteBounds="3.5, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/SIPLDBMLDataContext/USER" />
+      <nestedChildShapes>
+        <elementListCompartment Id="616b3c5a-2ae0-46ee-99c5-b006b6aefb94" absoluteBounds="3.515, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1c7dc697-ac88-4568-92ff-335ac13eb4ba" absoluteBounds="6.25, 2.75, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/SIPLDBMLDataContext/ROLEWISE_MENU" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87b3b893-b44a-4ccb-967d-f3eb46ae750d" absoluteBounds="6.265, 3.21, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fd922bf7-035d-4d6d-a06c-a3b17df7b61f" absoluteBounds="3.5, 2.625, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/SIPLDBMLDataContext/MODULE_PERMISSION" />
+      <nestedChildShapes>
+        <elementListCompartment Id="af4358eb-0b8d-4651-b5e1-dafa2dbaddac" absoluteBounds="3.515, 3.085, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(2.75 : 4.90949625651042); (3.5 : 4.90949625651042)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SIPLDBMLDataContext/USER_GROUP/USER_GROUP_USER" />
+      <nodes>
+        <classShapeMoniker Id="b7d5858b-a4b9-4dda-aca5-4e31913faa03" />
+        <classShapeMoniker Id="6f69de46-c0fb-443b-a925-bf5256f2ea3c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.38064697265625); (6.25 : 4.38064697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SIPLDBMLDataContext/USER_GROUP/USER_GROUP_ROLEWISE_MENU" />
+      <nodes>
+        <classShapeMoniker Id="b7d5858b-a4b9-4dda-aca5-4e31913faa03" />
+        <classShapeMoniker Id="1c7dc697-ac88-4568-92ff-335ac13eb4ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 3.38064697265625); (6.25 : 3.38064697265625)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SIPLDBMLDataContext/MODULE_PERMISSION/MODULE_PERMISSION_ROLEWISE_MENU" />
+      <nodes>
+        <classShapeMoniker Id="fd922bf7-035d-4d6d-a06c-a3b17df7b61f" />
+        <classShapeMoniker Id="1c7dc697-ac88-4568-92ff-335ac13eb4ba" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(1.75 : 3.875); (1.75 : 3.2499995); (3.5 : 3.2499995)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/SIPLDBMLDataContext/USER_GROUP/USER_GROUP_MODULE_PERMISSION" />
+      <nodes>
+        <classShapeMoniker Id="b7d5858b-a4b9-4dda-aca5-4e31913faa03" />
+        <classShapeMoniker Id="fd922bf7-035d-4d6d-a06c-a3b17df7b61f" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

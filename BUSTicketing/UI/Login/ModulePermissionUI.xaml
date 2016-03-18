@@ -1,0 +1,28 @@
+﻿<Window x:Class="BUSTicketing.UI.Login.ModulePermissionUI"
+         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Module Permission" Height="457" Width="569" ShowInTaskbar="False" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Background="{StaticResource GrayWhite}">
+
+    <Grid>
+        <GroupBox Header="Select Group" Height="65" HorizontalAlignment="Left" Margin="36,39,0,0" Name="groupBox3" VerticalAlignment="Top" Width="460">
+            <Grid />
+        </GroupBox>
+        <GroupBox Header="permitted Module" Height="251" HorizontalAlignment="Left" Margin="300,111,0,0" Name="groupBox2" VerticalAlignment="Top" Width="201">
+            <Grid />
+        </GroupBox>
+        <GroupBox Header="Not Permitted Module" Height="251" HorizontalAlignment="Left" Margin="40,111,0,0" Name="groupBox1" VerticalAlignment="Top" Width="201">
+            <Grid />
+        </GroupBox>
+        <Button Background="#00000000" Content="Save" Height="23" HorizontalAlignment="Left" Margin="270,375,0,0" Name="btnSaveModulePermission" VerticalAlignment="Top" Width="75" Click="BtnSaveModulePermissionClick" />
+        <Button Background="#00000000" Content="Delete" Height="23" HorizontalAlignment="Left" Margin="349,375,0,0" Name="btnDeleteModulePermission" VerticalAlignment="Top" Width="75" Click="BtnDeleteModulePermissionClick" />
+        <Button Background="#00000000" Content="Reset" Height="23" HorizontalAlignment="Left" Margin="427,375,0,0" Name="btnResetModulePermission" VerticalAlignment="Top" Width="75" Click="BtnResetModulePermissionClick" />
+        <Label Content="Module Permission" FlowDirection="LeftToRight" FontSize="18" FontWeight="Bold" Height="33" Margin="190,0,181,0" Name="label5" VerticalAlignment="Top" />
+        <Button Background="#00000000" Content="&gt;" Height="23" HorizontalAlignment="Left" Margin="250,196,0,0" Name="btnMoveModule" VerticalAlignment="Top" Width="37" Click="btnMoveModule_Click" />
+        <Button Background="#00000000" Content="&lt;" Height="23" HorizontalAlignment="Left" Margin="250,259,0,0" Name="btnDeleteModule" VerticalAlignment="Top" Width="37" Click="btnDeleteModule_Click" />
+        <ComboBox Height="23" HorizontalAlignment="Left" Margin="145,65,0,0" Name="cmbUserGroupofModule" Style="{StaticResource ComboBoxBGYellowGreen}" VerticalAlignment="Top" Width="200" SelectionChanged="CmbUserGroupofModuleSelectionChanged1" />
+        <ListBox Height="220" HorizontalAlignment="Left" Margin="50,132,0,0" Name="lbNotPermittedModule" VerticalAlignment="Top" Width="179" />
+        <ListBox Height="220" HorizontalAlignment="Left" Margin="310,132,0,0" Name="lbPermittedModule" VerticalAlignment="Top" Width="179" />
+        <Label Content="Group Name" Height="28" HorizontalAlignment="Left" Margin="62,60,0,0" Name="label1" VerticalAlignment="Top" />
+    </Grid>
+</Window>
+
