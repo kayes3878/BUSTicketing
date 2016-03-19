@@ -1,0 +1,428 @@
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/kayes/Desktop/BUSTicketing/.git/
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git add.
+git: 'add.' is not a git command. See 'git --help'.
+
+Did you mean this?
+        add
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git add .
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git add origin https://github.com/kayes3878/BUSTicketing.git
+fatal: pathspec 'origin' did not match any files
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing2.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add origin https://github.com/kayes3878/BUSTicketing2.git
+fatal: remote origin already exists.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git remote add upstream https://github.com/kayes3878/BUSTicketing.git
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git pull
+Already up-to-date.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git push
+warning: push.default is unset; its implicit value has changed in
+Git 2.0 from 'matching' to 'simple'. To squelch this message
+and maintain the traditional behavior, use:
+
+  git config --global push.default matching
+
+To squelch this message and adopt the new behavior now, use:
+
+  git config --global push.default simple
+
+When push.default is set to 'matching', git will push local branches
+to the remote branches that already exist with the same name.
+
+Since Git 2.0, Git defaults to the more conservative 'simple'
+behavior, which only pushes the current branch to the corresponding
+remote branch that 'git pull' uses to update the current branch.
+
+See 'git help config' and search for 'push.default' for further information.
+(the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+'current' instead of 'simple' if you sometimes use older versions of Git)
+
+Everything up-to-date
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ sl
+bash: sl: command not found
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ ls
+BLL/           BUSTicketing.sln      DAL/   DATADBML/  packages/
+BUSTicketing/  BUSTicketing.v12.suo  DATA/  ENTITY/    script.sql
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git add -A
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git commit -m "Full upload"
+[master 7da1deb] Full upload
+ 312 files changed, 134006 insertions(+), 298 deletions(-)
+ delete mode 100644 .gitattributes
+ delete mode 100644 .gitignore
+ create mode 100644 BLL/BLL.csproj
+ create mode 100644 BLL/LoginBLL/BMenuPermissionManager.cs
+ create mode 100644 BLL/LoginBLL/BSModulePermissionManager.cs
+ create mode 100644 BLL/LoginBLL/BSUserGroupManager.cs
+ create mode 100644 BLL/LoginBLL/BSUserManager.cs
+ create mode 100644 BLL/LoginBLL/BUserManager.cs
+ create mode 100644 BLL/PreSetupManeger.cs
+ create mode 100644 BLL/Properties/AssemblyInfo.cs
+ create mode 100644 BLL/Properties/Resources.Designer.cs
+ create mode 100644 BLL/Properties/Resources.resx
+ create mode 100644 BLL/Resources/DATADBML.csproj
+ create mode 100644 BLL/Resources/DATADBML.csproj.vspscc
+ create mode 100644 BLL/Resources/SIPLDBML.dbml
+ create mode 100644 BLL/Resources/SIPLDBML.dbml.layout
+ create mode 100644 BLL/Resources/SIPLDBML.designer.cs
+ create mode 100644 BLL/Resources/app.config
+ create mode 100644 BLL/TicketStatusManager.cs
+ create mode 100644 BLL/bin/Debug/BLL.dll
+ create mode 100644 BLL/bin/Debug/BLL.pdb
+ create mode 100644 BLL/bin/Debug/DAL.dll
+ create mode 100644 BLL/bin/Debug/DAL.pdb
+ create mode 100644 BLL/bin/Debug/DATA.dll
+ create mode 100644 BLL/bin/Debug/DATA.pdb
+ create mode 100644 BLL/bin/Debug/ENTITY.dll
+ create mode 100644 BLL/bin/Debug/ENTITY.pdb
+ create mode 100644 BLL/bin/Debug/EntityFramework.dll
+ create mode 100644 BLL/bin/Debug/EntityFramework.xml
+ create mode 100644 BLL/obj/Debug/BLL.Properties.Resources.resources
+ create mode 100644 BLL/obj/Debug/BLL.csproj.FileListAbsolute.txt
+ create mode 100644 BLL/obj/Debug/BLL.csproj.GenerateResource.Cache
+ create mode 100644 BLL/obj/Debug/BLL.csprojResolveAssemblyReference.cache
+ create mode 100644 BLL/obj/Debug/BLL.dll
+ create mode 100644 BLL/obj/Debug/BLL.pdb
+ create mode 100644 BLL/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 BLL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BLL/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 BLL/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 BLL/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 BLL/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 BUSTicketing.sln
+ create mode 100644 BUSTicketing.v12.suo
+ create mode 100644 BUSTicketing/App.config
+ create mode 100644 BUSTicketing/App.xaml
+ create mode 100644 BUSTicketing/App.xaml.cs
+ create mode 100644 BUSTicketing/BUSTicketing.csproj
+ create mode 100644 BUSTicketing/BUSTicketing.csproj.user
+ create mode 100644 BUSTicketing/Images/Go.png
+ create mode 100644 BUSTicketing/Images/IconSecurity.png
+ create mode 100644 BUSTicketing/Images/IconUser.png
+ create mode 100644 BUSTicketing/Images/background_Log.jpg
+ create mode 100644 BUSTicketing/Images/background_WPF.jpg
+ create mode 100644 BUSTicketing/Images/exit.png
+ create mode 100644 BUSTicketing/Images/login-image.png
+ create mode 100644 BUSTicketing/Images/retail-shop-icon.png
+ create mode 100644 BUSTicketing/MainWindow.xaml
+ create mode 100644 BUSTicketing/MainWindow.xaml.cs
+ create mode 100644 BUSTicketing/Properties/AssemblyInfo.cs
+ create mode 100644 BUSTicketing/Properties/Resources.Designer.cs
+ create mode 100644 BUSTicketing/Properties/Resources.resx
+ create mode 100644 BUSTicketing/Properties/Settings.Designer.cs
+ create mode 100644 BUSTicketing/Properties/Settings.settings
+ create mode 100644 BUSTicketing/ReportUtility.cs
+ create mode 100644 BUSTicketing/Reporting/Crystal/RTicketPrintReport.cs
+ create mode 100644 BUSTicketing/Reporting/Crystal/RTicketPrintReport.rpt
+ create mode 100644 BUSTicketing/Reporting/Entity/RTicketPrint.cs
+ create mode 100644 BUSTicketing/Reporting/UI/ReportViewerUI.xaml
+ create mode 100644 BUSTicketing/Reporting/UI/ReportViewerUI.xaml.cs
+ create mode 100644 BUSTicketing/Resources/ButtonDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/ComboBoxDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/DataGridDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/FormDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/GroupBoxDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/ListViewDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/TabItemDictionary.xaml
+ create mode 100644 BUSTicketing/Resources/TextBoxDictionary.xaml
+ create mode 100644 BUSTicketing/UI/BusAssignUI.xaml
+ create mode 100644 BUSTicketing/UI/BusAssignUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/Login/GroupSetupUI.xaml
+ create mode 100644 BUSTicketing/UI/Login/GroupSetupUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/Login/MenuPermissionUI.xaml
+ create mode 100644 BUSTicketing/UI/Login/MenuPermissionUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/Login/ModulePermissionUI.xaml
+ create mode 100644 BUSTicketing/UI/Login/ModulePermissionUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/Login/SecurityDashBoardUI.xaml
+ create mode 100644 BUSTicketing/UI/Login/SecurityDashBoardUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/Login/UserSetUpUI.xaml
+ create mode 100644 BUSTicketing/UI/Login/UserSetUpUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/LoginUI.xaml
+ create mode 100644 BUSTicketing/UI/LoginUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/ModuleUI.xaml
+ create mode 100644 BUSTicketing/UI/ModuleUI.xaml.cs
+ create mode 100644 BUSTicketing/UI/TicketingUI.xaml
+ create mode 100644 BUSTicketing/UI/TicketingUI.xaml.cs
+ create mode 100644 BUSTicketing/bin/Debug/BLL.dll
+ create mode 100644 BUSTicketing/bin/Debug/BLL.pdb
+ create mode 100644 BUSTicketing/bin/Debug/BUSTicketing.exe
+ create mode 100644 BUSTicketing/bin/Debug/BUSTicketing.exe.config
+ create mode 100644 BUSTicketing/bin/Debug/BUSTicketing.pdb
+ create mode 100644 BUSTicketing/bin/Debug/BUSTicketing.vshost.exe
+ create mode 100644 BUSTicketing/bin/Debug/BUSTicketing.vshost.exe.config
+ create mode 100644 BUSTicketing/bin/Debug/BUSTicketing.vshost.exe.manifest
+ create mode 100644 BUSTicketing/bin/Debug/DAL.dll
+ create mode 100644 BUSTicketing/bin/Debug/DAL.pdb
+ create mode 100644 BUSTicketing/bin/Debug/DATA.dll
+ create mode 100644 BUSTicketing/bin/Debug/DATA.pdb
+ create mode 100644 BUSTicketing/bin/Debug/ENTITY.dll
+ create mode 100644 BUSTicketing/bin/Debug/ENTITY.pdb
+ create mode 100644 BUSTicketing/bin/Debug/EntityFramework.dll
+ create mode 100644 BUSTicketing/bin/Debug/EntityFramework.xml
+ create mode 100644 BUSTicketing/bin/Debug/Images/Go.png
+ create mode 100644 BUSTicketing/bin/Debug/Images/IconSecurity.png
+ create mode 100644 BUSTicketing/bin/Debug/Images/IconUser.png
+ create mode 100644 BUSTicketing/bin/Debug/Images/background_Log.jpg
+ create mode 100644 BUSTicketing/bin/Debug/Images/background_WPF.jpg
+ create mode 100644 BUSTicketing/bin/Debug/Images/exit.png
+ create mode 100644 BUSTicketing/bin/Debug/Images/login-image.png
+ create mode 100644 BUSTicketing/bin/Debug/Images/retail-shop-icon.png
+ create mode 100644 BUSTicketing/obj/Debug/App.baml
+ create mode 100644 BUSTicketing/obj/Debug/App.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/App.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.Properties.Resources.resources
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.csproj.FileListAbsolute.txt
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.csproj.GenerateResource.Cache
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.csprojResolveAssemblyReference.cache
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.exe
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.g.resources
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing.pdb
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing_MarkupCompile.cache
+ create mode 100644 BUSTicketing/obj/Debug/BUSTicketing_MarkupCompile.i.cache
+ create mode 100644 BUSTicketing/obj/Debug/ButtonDictionary.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 BUSTicketing/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 BUSTicketing/obj/Debug/MainWindow.baml
+ create mode 100644 BUSTicketing/obj/Debug/MainWindow.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/MainWindow.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/Reporting/UI/ReportViewerUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/Reporting/UI/ReportViewerUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/Reporting/UI/ReportViewerUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/Resources/ButtonDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/ComboBoxDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/DataGridDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/FormDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/GroupBoxDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/ListViewDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/TabItemDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/Resources/TextBoxDictionary.baml
+ create mode 100644 BUSTicketing/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 BUSTicketing/obj/Debug/TempPE/Reporting.Crystal.RTicketPrintReport.cs.dll
+ create mode 100644 BUSTicketing/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 BUSTicketing/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 BUSTicketing/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/BusAssignUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/BusAssignUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/BusAssignUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/GroupSetupUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/GroupSetupUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/GroupSetupUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/MenuPermissionUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/MenuPermissionUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/MenuPermissionUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/ModulePermissionUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/ModulePermissionUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/ModulePermissionUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/SecurityDashBoardUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/SecurityDashBoardUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/SecurityDashBoardUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/UserSetUpUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/UserSetUpUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/Login/UserSetUpUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/LoginUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/LoginUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/LoginUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/ModuleUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/ModuleUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/ModuleUI.g.i.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/TicketingUI.baml
+ create mode 100644 BUSTicketing/obj/Debug/UI/TicketingUI.g.cs
+ create mode 100644 BUSTicketing/obj/Debug/UI/TicketingUI.g.i.cs
+ create mode 100644 DAL/BusTicketingModel.cs
+ create mode 100644 DAL/DAL.csproj
+ create mode 100644 DAL/LoginDAL/MenuPermissionGateway.cs
+ create mode 100644 DAL/LoginDAL/SModulePermissionGateway.cs
+ create mode 100644 DAL/LoginDAL/SUserGateway.cs
+ create mode 100644 DAL/LoginDAL/SUserGroupGateway.cs
+ create mode 100644 DAL/LoginDAL/UserGateway.cs
+ create mode 100644 DAL/PreSetupGetWay.cs
+ create mode 100644 DAL/Properties/AssemblyInfo.cs
+ create mode 100644 DAL/Properties/Resources.Designer.cs
+ create mode 100644 DAL/Properties/Resources.resx
+ create mode 100644 DAL/TicketingGetWay.cs
+ create mode 100644 DAL/bin/Debug/DAL.dll
+ create mode 100644 DAL/bin/Debug/DAL.pdb
+ create mode 100644 DAL/bin/Debug/DATA.dll
+ create mode 100644 DAL/bin/Debug/DATA.pdb
+ create mode 100644 DAL/bin/Debug/ENTITY.dll
+ create mode 100644 DAL/bin/Debug/ENTITY.pdb
+ create mode 100644 DAL/bin/Debug/EntityFramework.dll
+ create mode 100644 DAL/bin/Debug/EntityFramework.xml
+ create mode 100644 DAL/obj/Debug/DAL.Properties.Resources.resources
+ create mode 100644 DAL/obj/Debug/DAL.csproj.FileListAbsolute.txt
+ create mode 100644 DAL/obj/Debug/DAL.csproj.GenerateResource.Cache
+ create mode 100644 DAL/obj/Debug/DAL.csprojResolveAssemblyReference.cache
+ create mode 100644 DAL/obj/Debug/DAL.dll
+ create mode 100644 DAL/obj/Debug/DAL.pdb
+ create mode 100644 DAL/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 DAL/obj/Debug/TempPE/Properties.Resources.Designer.cs.dll
+ create mode 100644 DAL/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 DAL/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 DAL/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 DATA/App.Config
+ create mode 100644 DATA/BUS_ASSIGN.cs
+ create mode 100644 DATA/BusTicketingModel.Context.cs
+ create mode 100644 DATA/BusTicketingModel.Context.tt
+ create mode 100644 DATA/BusTicketingModel.Designer.cs
+ create mode 100644 DATA/BusTicketingModel.cs
+ create mode 100644 DATA/BusTicketingModel.edmx
+ create mode 100644 DATA/BusTicketingModel.edmx.diagram
+ create mode 100644 DATA/BusTicketingModel.tt
+ create mode 100644 DATA/DATA.csproj
+ create mode 100644 DATA/DUSER.cs
+ create mode 100644 DATA/MODULE_PERMISSION.cs
+ create mode 100644 DATA/PRE_SETUP.cs
+ create mode 100644 DATA/Properties/AssemblyInfo.cs
+ create mode 100644 DATA/ROLEWISE_MENU.cs
+ create mode 100644 DATA/SeatFareDetail.cs
+ create mode 100644 DATA/TICKET_DETAILS.cs
+ create mode 100644 DATA/USER_GROUP.cs
+ create mode 100644 DATA/bin/Debug/DATA.dll
+ create mode 100644 DATA/bin/Debug/DATA.dll.config
+ create mode 100644 DATA/bin/Debug/DATA.pdb
+ create mode 100644 DATA/bin/Debug/EntityFramework.dll
+ create mode 100644 DATA/bin/Debug/EntityFramework.xml
+ create mode 100644 DATA/obj/Debug/DATA.csproj.FileListAbsolute.txt
+ create mode 100644 DATA/obj/Debug/DATA.csprojResolveAssemblyReference.cache
+ create mode 100644 DATA/obj/Debug/DATA.dll
+ create mode 100644 DATA/obj/Debug/DATA.pdb
+ create mode 100644 DATA/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 DATA/obj/Debug/TempPE/BusTicketingModel.Context.cs.dll
+ create mode 100644 DATA/obj/Debug/TempPE/BusTicketingModel.Designer.cs.dll
+ create mode 100644 DATA/obj/Debug/TempPE/BusTicketingModel.cs.dll
+ create mode 100644 DATA/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 DATA/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 DATA/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 DATA/obj/Debug/edmxResourcesToEmbed/BusTicketingModel.csdl
+ create mode 100644 DATA/obj/Debug/edmxResourcesToEmbed/BusTicketingModel.msl
+ create mode 100644 DATA/obj/Debug/edmxResourcesToEmbed/BusTicketingModel.ssdl
+ create mode 100644 DATA/packages.config
+ create mode 100644 DATADBML/DATADBML.csproj
+ create mode 100644 DATADBML/LOGINDBML.dbml
+ create mode 100644 DATADBML/LOGINDBML.dbml.layout
+ create mode 100644 DATADBML/LOGINDBML.designer.cs
+ create mode 100644 DATADBML/Properties/AssemblyInfo.cs
+ create mode 100644 DATADBML/Properties/Settings.Designer.cs
+ create mode 100644 DATADBML/Properties/Settings.settings
+ create mode 100644 DATADBML/app.config
+ create mode 100644 DATADBML/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ create mode 100644 DATADBML/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 DATADBML/obj/Debug/TempPE/LOGIN.designer.cs.dll
+ create mode 100644 DATADBML/obj/Debug/TempPE/LOGINDBML.designer.cs.dll
+ create mode 100644 DATADBML/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 DATADBML/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 DATADBML/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ create mode 100644 ENTITY/ENTITY.csproj
+ create mode 100644 ENTITY/Login/EMenuPermission.cs
+ create mode 100644 ENTITY/Login/ESModulePermission.cs
+ create mode 100644 ENTITY/Login/ESUser.cs
+ create mode 100644 ENTITY/Login/ESUserGroup.cs
+ create mode 100644 ENTITY/Login/EUser.cs
+ create mode 100644 ENTITY/Login/MMEUser.cs
+ create mode 100644 ENTITY/PreSetup.cs
+ create mode 100644 ENTITY/Properties/AssemblyInfo.cs
+ create mode 100644 ENTITY/TicketDetails.cs
+ create mode 100644 ENTITY/Ticketing.cs
+ create mode 100644 ENTITY/Validations.cs
+ create mode 100644 ENTITY/bin/Debug/ENTITY.dll
+ create mode 100644 ENTITY/bin/Debug/ENTITY.pdb
+ create mode 100644 ENTITY/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ create mode 100644 ENTITY/obj/Debug/ENTITY.csproj.FileListAbsolute.txt
+ create mode 100644 ENTITY/obj/Debug/ENTITY.csprojResolveAssemblyReference.cache
+ create mode 100644 ENTITY/obj/Debug/ENTITY.dll
+ create mode 100644 ENTITY/obj/Debug/ENTITY.pdb
+ create mode 100644 ENTITY/obj/Debug/TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs
+ create mode 100644 ENTITY/obj/Debug/TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs
+ create mode 100644 ENTITY/obj/Debug/TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs
+ delete mode 100644 Final thesis.pdf
+ create mode 100644 packages/EntityFramework.5.0.0/Content/App.config.transform
+ create mode 100644 packages/EntityFramework.5.0.0/Content/Web.config.transform
+ create mode 100644 packages/EntityFramework.5.0.0/EntityFramework.5.0.0.nupkg
+ create mode 100644 packages/EntityFramework.5.0.0/EntityFramework.5.0.0.nuspec
+ create mode 100644 packages/EntityFramework.5.0.0/lib/net40/EntityFramework.dll
+ create mode 100644 packages/EntityFramework.5.0.0/lib/net40/EntityFramework.xml
+ create mode 100644 packages/EntityFramework.5.0.0/lib/net45/EntityFramework.dll
+ create mode 100644 packages/EntityFramework.5.0.0/lib/net45/EntityFramework.xml
+ create mode 100644 packages/EntityFramework.5.0.0/tools/EntityFramework.PS3.psd1
+ create mode 100644 packages/EntityFramework.5.0.0/tools/EntityFramework.PowerShell.Utility.dll
+ create mode 100644 packages/EntityFramework.5.0.0/tools/EntityFramework.PowerShell.dll
+ create mode 100644 packages/EntityFramework.5.0.0/tools/EntityFramework.psd1
+ create mode 100644 packages/EntityFramework.5.0.0/tools/EntityFramework.psm1
+ create mode 100644 packages/EntityFramework.5.0.0/tools/Redirect.VS11.config
+ create mode 100644 packages/EntityFramework.5.0.0/tools/Redirect.config
+ create mode 100644 packages/EntityFramework.5.0.0/tools/about_EntityFramework.help.txt
+ create mode 100644 packages/EntityFramework.5.0.0/tools/init.ps1
+ create mode 100644 packages/EntityFramework.5.0.0/tools/install.ps1
+ create mode 100644 packages/EntityFramework.5.0.0/tools/migrate.exe
+ create mode 100644 packages/repositories.config
+ create mode 100644 packages/waf.3.0.0/lib/net45/WpfApplicationFramework.dll
+ create mode 100644 packages/waf.3.0.0/lib/net45/WpfApplicationFramework.xml
+ create mode 100644 packages/waf.3.0.0/waf.3.0.0.nupkg
+ create mode 100644 packages/waf.3.0.0/waf.3.0.0.nuspec
+ create mode 100644 script.sql
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/kayes3878/BUSTicketing.git/'
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ git push -u origin master
+Counting objects: 299, done.
+Delta compression using up to 2 threads.
+Compressing objects: 100% (281/281), done.
+Writing objects: 100% (299/299), 2.98 MiB | 182.00 KiB/s, done.
+Total 299 (delta 117), reused 0 (delta 0)
+To https://github.com/kayes3878/BUSTicketing.git
+   763deed..7da1deb  master -> master
+Branch master set up to track remote branch master from origin.
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$ ^C
+
+kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
+$
