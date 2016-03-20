@@ -6,6 +6,8 @@
         <Menu Height="26" Name="topManu" VerticalAlignment="Top" >
             <MenuItem Header="Home" Margin="10,6,0,0" Name="HomeMenu" >
                 <MenuItem Header="Bus Assign" Name="BusAssignMenu" Click="BusAssignMenu_Click"/>
+                <MenuItem Header="Chalan" Name="chalanMenu" Click="chalanMenu_Click"/>
+
             </MenuItem>
         </Menu>
         <GroupBox BorderThickness="3" BorderBrush="Black" Header="BUS Seat Planning" HorizontalAlignment="Left" Margin="10,26,0,0" VerticalAlignment="Top" Height="618" Width="439">

@@ -27,3 +27,11 @@ H:\APP\BusTicketingApp__September _19, _2015\DATA\bin\Debug\EntityFramework.xml
 H:\APP\BusTicketingApp__September _19, _2015\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
 H:\APP\BusTicketingApp__September _19, _2015\DATA\obj\Debug\DATA.dll
 H:\APP\BusTicketingApp__September _19, _2015\DATA\obj\Debug\DATA.pdb
+C:\Users\kayes\Desktop\BUSTicketing\DATA\bin\Debug\DATA.dll.config
+C:\Users\kayes\Desktop\BUSTicketing\DATA\bin\Debug\DATA.dll
+C:\Users\kayes\Desktop\BUSTicketing\DATA\bin\Debug\DATA.pdb
+C:\Users\kayes\Desktop\BUSTicketing\DATA\bin\Debug\EntityFramework.dll
+C:\Users\kayes\Desktop\BUSTicketing\DATA\bin\Debug\EntityFramework.xml
+C:\Users\kayes\Desktop\BUSTicketing\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+C:\Users\kayes\Desktop\BUSTicketing\DATA\obj\Debug\DATA.dll
+C:\Users\kayes\Desktop\BUSTicketing\DATA\obj\Debug\DATA.pdb

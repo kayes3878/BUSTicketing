@@ -4214,6 +4214,11 @@ namespace BUSTicketing.UI
                 MessageBox.Show(ex.Message);
             }
         }
+
+        private void chalanMenu_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Chalan ........Menu");
+        }
     
     }
 
