@@ -18,3 +18,8 @@ C:\Users\kayes\Desktop\BUSTicketing\ENTITY\bin\Debug\ENTITY.pdb
 C:\Users\kayes\Desktop\BUSTicketing\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
 C:\Users\kayes\Desktop\BUSTicketing\ENTITY\obj\Debug\ENTITY.dll
 C:\Users\kayes\Desktop\BUSTicketing\ENTITY\obj\Debug\ENTITY.pdb
+C:\Users\Imrul Kayes\Desktop\busticketing\ENTITY\bin\Debug\ENTITY.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\ENTITY\bin\Debug\ENTITY.pdb
+C:\Users\Imrul Kayes\Desktop\busticketing\ENTITY\obj\Debug\ENTITY.csprojResolveAssemblyReference.cache
+C:\Users\Imrul Kayes\Desktop\busticketing\ENTITY\obj\Debug\ENTITY.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\ENTITY\obj\Debug\ENTITY.pdb

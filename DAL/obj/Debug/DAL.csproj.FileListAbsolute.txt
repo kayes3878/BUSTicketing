@@ -46,3 +46,16 @@ C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.Properties.Resources.resou
 C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
 C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.dll
 C:\Users\kayes\Desktop\BUSTicketing\DAL\obj\Debug\DAL.pdb
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\DAL.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\DAL.pdb
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\DATA.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\ENTITY.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\EntityFramework.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\DATA.pdb
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\ENTITY.pdb
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\bin\Debug\EntityFramework.xml
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\obj\Debug\DAL.csprojResolveAssemblyReference.cache
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\obj\Debug\DAL.Properties.Resources.resources
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\obj\Debug\DAL.csproj.GenerateResource.Cache
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\obj\Debug\DAL.dll
+C:\Users\Imrul Kayes\Desktop\busticketing\DAL\obj\Debug\DAL.pdb

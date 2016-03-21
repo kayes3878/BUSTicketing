@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\obj\Debug\
+C:\Users\Imrul Kayes\Desktop\busticketing\BUSTicketing\obj\Debug\
 BUSTicketing
 none
 false
 DEBUG;TRACE
-C:\Users\kayes\Desktop\BUSTicketing\BUSTicketing\App.xaml
+C:\Users\Imrul Kayes\Desktop\busticketing\BUSTicketing\App.xaml
 19660061415
 
 18-462239468
-30-1798491180
+30-1145617210
 MainWindow.xaml;Reporting\UI\ReportViewerUI.xaml;Resources\ButtonDictionary.xaml;Resources\ComboBoxDictionary.xaml;Resources\DataGridDictionary.xaml;Resources\FormDictionary.xaml;Resources\GroupBoxDictionary.xaml;Resources\ListViewDictionary.xaml;Resources\TabItemDictionary.xaml;Resources\TextBoxDictionary.xaml;UI\BusAssignUI.xaml;UI\LoginUI.xaml;UI\Login\GroupSetupUI.xaml;UI\Login\MenuPermissionUI.xaml;UI\Login\ModulePermissionUI.xaml;UI\Login\SecurityDashBoardUI.xaml;UI\Login\UserSetUpUI.xaml;UI\ModuleUI.xaml;UI\TicketingUI.xaml;
 
 False
