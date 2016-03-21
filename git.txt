@@ -1,8 +1,5 @@
 
-kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
-$ git init
-Reinitialized existing Git repository in C:/Users/kayes/Desktop/BUSTicketing/.git/
-
+Test 
 kayes@kayes-PC MINGW64 ~/Desktop/BUSTicketing (master)
 $ git add.
 git: 'add.' is not a git command. See 'git --help'.
