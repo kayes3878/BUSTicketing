@@ -67,3 +67,18 @@ C:\Users\Imrul Kayes\Desktop\busticketing\BLL\obj\Debug\BLL.Properties.Resources
 C:\Users\Imrul Kayes\Desktop\busticketing\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
 C:\Users\Imrul Kayes\Desktop\busticketing\BLL\obj\Debug\BLL.dll
 C:\Users\Imrul Kayes\Desktop\busticketing\BLL\obj\Debug\BLL.pdb
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\BLL.dll
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\BLL.pdb
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\DAL.dll
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\ENTITY.dll
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\DATA.dll
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\DAL.pdb
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\ENTITY.pdb
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\DATA.pdb
+C:\Users\User\Desktop\Busticketing\BLL\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Busticketing\BLL\obj\Debug\BLL.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Busticketing\BLL\obj\Debug\BLL.Properties.Resources.resources
+C:\Users\User\Desktop\Busticketing\BLL\obj\Debug\BLL.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\Busticketing\BLL\obj\Debug\BLL.dll
+C:\Users\User\Desktop\Busticketing\BLL\obj\Debug\BLL.pdb

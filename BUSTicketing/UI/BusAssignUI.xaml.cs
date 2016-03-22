@@ -33,25 +33,22 @@ namespace BUSTicketing.UI
             LoadBusTypeComBox();
             LoadSiftComboBox();
             LoadTicketCounterCombobox();
-            LoadTimeCmbBox();
             LoadbusNumberComboBox();
             LoadAssignedBusListView();
             LoadlastStopCmbBox();
-            LoadReportingTimeCmbBox();
-
         }
 
-        private void LoadReportingTimeCmbBox()
-        {
-            List<PreSetup> presetupList = new List<PreSetup>();
-            reportintgTimeCombobox.Items.Clear();
-            presetupList = _preSetupManegerObj.GetAllTime();
-            foreach (PreSetup preset in presetupList)
-            {
-                reportintgTimeCombobox.ItemsSource = presetupList;
-            }
-            reportintgTimeCombobox.DisplayMemberPath = "TimeOfDiparture";
-        }
+        //private void LoadReportingTimeCmbBox()
+        //{
+        //    List<PreSetup> presetupList = new List<PreSetup>();
+        //    reportintgTimeCombobox.Items.Clear();
+        //    presetupList = _preSetupManegerObj.GetAllTime();
+        //    foreach (PreSetup preset in presetupList)
+        //    {
+        //        reportintgTimeCombobox.ItemsSource = presetupList;
+        //    }
+        //    reportintgTimeCombobox.DisplayMemberPath = "TimeOfDiparture";
+        //}
 
         private void LoadlastStopCmbBox()
         {
@@ -94,17 +91,17 @@ namespace BUSTicketing.UI
             busNumberComboBox.DisplayMemberPath = "BusNumber";
         }
 
-        private void LoadTimeCmbBox()
-        {
-            List<PreSetup> presetupList = new List<PreSetup>();
-            TimeCmbBox.Items.Clear();
-            presetupList = _preSetupManegerObj.GetAllTime();
-            foreach (PreSetup preset in presetupList)
-            {
-                TimeCmbBox.ItemsSource = presetupList;
-            }
-            TimeCmbBox.DisplayMemberPath = "TimeOfDiparture";
-        }
+        //private void LoadTimeCmbBox()
+        //{
+        //    List<PreSetup> presetupList = new List<PreSetup>();
+        //    TimeCmbBox.Items.Clear();
+        //    presetupList = _preSetupManegerObj.GetAllTime();
+        //    foreach (PreSetup preset in presetupList)
+        //    {
+        //        TimeCmbBox.ItemsSource = presetupList;
+        //    }
+        //    TimeCmbBox.DisplayMemberPath = "TimeOfDiparture";
+        //}
 
         private void LoadTicketCounterCombobox()
         {

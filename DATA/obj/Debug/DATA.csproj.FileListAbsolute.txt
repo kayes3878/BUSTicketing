@@ -43,3 +43,11 @@ C:\Users\Imrul Kayes\Desktop\busticketing\DATA\bin\Debug\EntityFramework.xml
 C:\Users\Imrul Kayes\Desktop\busticketing\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
 C:\Users\Imrul Kayes\Desktop\busticketing\DATA\obj\Debug\DATA.dll
 C:\Users\Imrul Kayes\Desktop\busticketing\DATA\obj\Debug\DATA.pdb
+C:\Users\User\Desktop\Busticketing\DATA\bin\Debug\DATA.dll.config
+C:\Users\User\Desktop\Busticketing\DATA\bin\Debug\DATA.dll
+C:\Users\User\Desktop\Busticketing\DATA\bin\Debug\DATA.pdb
+C:\Users\User\Desktop\Busticketing\DATA\bin\Debug\EntityFramework.dll
+C:\Users\User\Desktop\Busticketing\DATA\bin\Debug\EntityFramework.xml
+C:\Users\User\Desktop\Busticketing\DATA\obj\Debug\DATA.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\Busticketing\DATA\obj\Debug\DATA.dll
+C:\Users\User\Desktop\Busticketing\DATA\obj\Debug\DATA.pdb
